@@ -1,4 +1,4 @@
-FROM mongo:4.0.10-xenial
+FROM mariadb:10.2.26-bionic
 
 USER root
 
@@ -20,6 +20,7 @@ RUN echo 'APT::Get::Assume-Yes "true";' > /etc/apt/apt.conf.d/90tugboat && \
         git locales sudo openssh-client ca-certificates tar gzip build-essential \
         net-tools netcat-openbsd unzip zip bzip2 gnupg curl wget vim runit \
         rsync apt-transport-https && \
+    (apt-get install -y ssmtp || apt-get install -y msmtp-mta) && \
     (grep Linux\ 7 /etc/issue && apt-get -t wheezy-backports install -y git || /bin/true) && \
     \
     echo "[user]" > ~/.gitconfig && \
@@ -41,12 +42,21 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 27017
+COPY files/mysql/tugboat.cnf /etc/mysql/conf.d/tugboat.cnf
+
+ENV MYSQL_ALLOW_EMPTY_PASSWORD=true \
+    MYSQL_USER=tugboat \
+    MYSQL_PASSWORD=tugboat \
+    MYSQL_DATABASE=tugboat \
+    MYSQL_HOST=localhost \
+    MYSQL_ROOT_HOST=localhost
+
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 3306
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/mongo
-COPY run /etc/service/mongo/run
+RUN mkdir -p /etc/service/mariadb
+COPY run /etc/service/mariadb/run
 
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]
