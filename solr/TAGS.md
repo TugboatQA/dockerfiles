@@ -1,4 +1,4 @@
-## Supported Tags
+## Supported Tags for tugboatqa/solr
 
 * `8.2.0`, `8.2`, `8`, `latest`
 * `8.1.1`, `8.1`
@@ -9,5 +9,4 @@
 * `6.6.6`, `6.6`, `6`
 * `5.5.5`, `5.5`, `5`
 
-A full list of tags, included those that are no longer supported, can be found at
-https://hub.docker.com/r/tugboatqa/solr/tags/
+The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/solr/tags/ to see a list of all available tags for this image, including those that are no longer supported.

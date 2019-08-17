@@ -1,4 +1,4 @@
-## Supported Tags
+## Supported Tags for tugboatqa/elasticsearch
 
 * `6.5.1`, `6.5`, `6`, `latest`
 * `6.4.3`, `6.4`
@@ -10,5 +10,4 @@
 * `5.5.3`, `5.5`
 * `5.4.3`, `5.4`
 
-A full list of tags, included those that are no longer supported, can be found at
-https://hub.docker.com/r/tugboatqa/elasticsearch/tags/
+The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/elasticsearch/tags/ to see a list of all available tags for this image, including those that are no longer supported.

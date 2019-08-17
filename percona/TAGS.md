@@ -1,4 +1,4 @@
-## Supported Tags
+## Supported Tags for tugboatqa/percona
 
 * `psmdb-4.0.10`, `psmdb-4.0`
 * `psmdb-3.6.12`, `psmdb-3.6`
@@ -6,5 +6,4 @@
 * `5.7.26-centos`, `5.7-centos`, `5-centos`, `centos`, `5.7.26`, `5.7`, `5`, `ps-5.7.26`, `ps-5.7`, `ps-5`, `latest`
 * `5.6.44-centos`, `5.6-centos`, `5.6.44`, `5.6`, `ps-5.6.44`, `ps-5.6`
 
-A full list of tags, included those that are no longer supported, can be found at
-https://hub.docker.com/r/tugboatqa/percona/tags/
+The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/percona/tags/ to see a list of all available tags for this image, including those that are no longer supported.

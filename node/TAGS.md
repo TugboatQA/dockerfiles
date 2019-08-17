@@ -1,4 +1,4 @@
-## Supported Tags
+## Supported Tags for tugboatqa/node
 
 * `8.16.1-stretch`, `8.16-stretch`, `8-stretch`, `carbon-stretch`, `8.16.1`, `8.16`, `8`, `carbon`
 * `8.16.1-jessie`, `8.16-jessie`, `8-jessie`, `carbon-jessie`
@@ -9,5 +9,4 @@
 * `10.16.3-jessie`, `10.16-jessie`, `10-jessie`, `dubnium-jessie`, `lts-jessie`
 * `10.16.3-buster`, `10.16-buster`, `10-buster`, `dubnium-buster`, `lts-buster`
 
-A full list of tags, included those that are no longer supported, can be found at
-https://hub.docker.com/r/tugboatqa/node/tags/
+The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/node/tags/ to see a list of all available tags for this image, including those that are no longer supported.

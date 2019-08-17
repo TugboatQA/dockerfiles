@@ -1,4 +1,4 @@
-## Supported Tags
+## Supported Tags for tugboatqa/php
 
 * `7.3.8-fpm-stretch`, `7.3-fpm-stretch`, `7-fpm-stretch`, `fpm-stretch`
 * `7.3.8-fpm-buster`, `7.3-fpm-buster`, `7-fpm-buster`, `fpm-buster`, `7.3.8-fpm`, `7.3-fpm`, `7-fpm`, `fpm`
@@ -13,5 +13,4 @@
 * `7.1.31-apache-stretch`, `7.1-apache-stretch`
 * `7.1.31-apache-buster`, `7.1-apache-buster`, `7.1.31-apache`, `7.1-apache`
 
-A full list of tags, included those that are no longer supported, can be found at
-https://hub.docker.com/r/tugboatqa/php/tags/
+The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/php/tags/ to see a list of all available tags for this image, including those that are no longer supported.
