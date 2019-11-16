@@ -1,4 +1,4 @@
-FROM php:7.4.0RC5-fpm-buster
+FROM mariadb:10.3.20-bionic
 
 USER root
 
@@ -42,35 +42,21 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-ENV COMPOSER_NO_INTERACTION=1 \
-    COMPOSER_DISCARD_CHANGES=1 \
-    COMPOSER_ALLOW_SUPERUSER=1
+COPY files/mysql/tugboat.cnf /etc/mysql/conf.d/tugboat.cnf
 
-RUN apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libpng-dev && \
-    (apt-get install -y mysql-client || apt-get install -y mariadb-client) && \
-    \
-    (docker-php-ext-configure gd --with-freetype-dir=/usr/include/ && \
-        docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ || \
-        docker-php-ext-configure gd --with-jpeg-dir=/usr/include/) && \
-    docker-php-ext-install -j$(nproc) gd iconv pdo_mysql && \
-    \
-    (pecl install xdebug || pecl install xdebug-2.5.5 || pecl install xdebug-2.8.0beta2) && \
-    bash -c "(pecl install mcrypt <<< '' || pecl install mcrypt-1.0.1 <<< '' || docker-php-ext-install mcrypt || /bin/true)" && \
-    (docker-php-ext-enable mcrypt || /bin/true) && \
-    \
-    php -r "copy('https://raw.githubusercontent.com/composer/getcomposer.org/master/web/installer', 'composer-setup.php');" && \
-    php composer-setup.php && \
-    php -r "unlink('composer-setup.php');" && \
-    mv composer.phar /usr/local/bin/composer
+ENV MYSQL_ALLOW_EMPTY_PASSWORD=true \
+    MYSQL_USER=tugboat \
+    MYSQL_PASSWORD=tugboat \
+    MYSQL_DATABASE=tugboat \
+    MYSQL_HOST=localhost \
+    MYSQL_ROOT_HOST=localhost
 
-COPY files/tugboat.ini /usr/local/etc/php/conf.d/tugboat.ini
-
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9000
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 3306
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/php
-COPY run /etc/service/php/run
+RUN mkdir -p /etc/service/mariadb
+COPY run /etc/service/mariadb/run
 
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]

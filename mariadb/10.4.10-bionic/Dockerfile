@@ -1,4 +1,4 @@
-FROM mariadb:10.3.18-bionic
+FROM mariadb:10.4.10-bionic
 
 USER root
 
