@@ -1,4 +1,4 @@
-FROM node:13.1.0-stretch
+FROM ubuntu:14.04
 
 USER root
 
