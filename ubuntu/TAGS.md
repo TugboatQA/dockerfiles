@@ -2,7 +2,6 @@
 
 * `20.04`, `focal-20200115`, `focal`, `devel`
 * `19.10`, `eoan-20200114`, `eoan`, `rolling`
-* `19.04`, `disco-20200114`, `disco`
 * `18.04`, `bionic-20200112`, `bionic`, `latest`
 * `16.04`, `xenial-20200114`, `xenial`
 * `14.04`, `trusty-20191217`, `trusty`
