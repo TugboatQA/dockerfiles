@@ -1,4 +1,4 @@
-FROM postgres:12.1
+FROM postgres:9.6.17
 
 USER root
 

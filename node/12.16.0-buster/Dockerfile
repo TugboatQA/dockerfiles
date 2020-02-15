@@ -1,4 +1,4 @@
-FROM postgres:10.11
+FROM node:12.16.0-buster
 
 USER root
 
@@ -42,16 +42,10 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-COPY files/docker-entirypoint-initdb.d /docker-entrypoint-initdb.d
-
-ENV POSTGRES_DB=tugboat
-
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 5432
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/postgres
-COPY run /etc/service/postgres/run
+
 
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]
