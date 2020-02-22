@@ -2,8 +2,8 @@
 
 * `13.8.0-stretch`, `13.8-stretch`, `13-stretch`, `stretch`, `13.8.0`, `13.8`, `13`, `latest`
 * `13.8.0-buster`, `13.8-buster`, `13-buster`, `buster`
-* `12.16.0-stretch`, `12.16-stretch`, `12-stretch`, `erbium-stretch`, `lts-stretch`, `current-stretch`, `12.16.0`, `12.16`, `12`, `erbium`, `lts`, `current`
-* `12.16.0-buster`, `12.16-buster`, `12-buster`, `erbium-buster`, `lts-buster`, `current-buster`
+* `12.16.1-stretch`, `12.16-stretch`, `12-stretch`, `erbium-stretch`, `lts-stretch`, `current-stretch`, `12.16.1`, `12.16`, `12`, `erbium`, `lts`, `current`
+* `12.16.1-buster`, `12.16-buster`, `12-buster`, `erbium-buster`, `lts-buster`, `current-buster`
 * `10.19.0-stretch`, `10.19-stretch`, `10-stretch`, `dubnium-stretch`, `10.19.0`, `10.19`, `10`, `dubnium`
 * `10.19.0-jessie`, `10.19-jessie`, `10-jessie`, `dubnium-jessie`
 * `10.19.0-buster`, `10.19-buster`, `10-buster`, `dubnium-buster`
