@@ -1,4 +1,4 @@
-FROM couchdb:2.3.0
+FROM couchdb:2.3.1
 
 USER root
 
