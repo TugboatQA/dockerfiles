@@ -1,4 +1,4 @@
-FROM percona:8.0.18-9-centos
+FROM percona:8.0.19-10-centos
 
 USER root
 
