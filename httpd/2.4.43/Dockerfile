@@ -1,4 +1,4 @@
-FROM redis:6.0-rc2
+FROM httpd:2.4.43
 
 USER root
 
@@ -42,12 +42,20 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 6379
+ENV DOCROOT=/usr/local/apache2/htdocs
+
+RUN mv ${DOCROOT} ${DOCROOT}.original && \
+    ln -s ${DOCROOT}.original ${DOCROOT} && \
+    \
+    sed -i 's|\(^\s?ErrorLog\s\).*|\1"logs_error_log"|' /usr/local/apache2/conf/httpd.conf && \
+    sed -i 's|\(^\s?CustomLog\s\).*|\1"logs_access_log" common|' /usr/local/apache2/conf/httpd.conf
+
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 80
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/redis
-COPY run /etc/service/redis/run
+RUN mkdir -p /etc/service/httpd
+COPY run /etc/service/httpd/run
 
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]

@@ -1,4 +1,4 @@
-FROM solr:7.6.0
+FROM redis:6.0-rc3
 
 USER root
 
@@ -42,11 +42,12 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 8983
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 6379
+
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/solr
-COPY run /etc/service/solr/run
+RUN mkdir -p /etc/service/redis
+COPY run /etc/service/redis/run
 
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]
