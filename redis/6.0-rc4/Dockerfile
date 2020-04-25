@@ -1,4 +1,4 @@
-FROM redis:6.0-rc3
+FROM redis:6.0-rc4
 
 USER root
 
