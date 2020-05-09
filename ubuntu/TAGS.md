@@ -1,6 +1,7 @@
 ## Supported Tags for tugboatqa/ubuntu
 
-* `20.04`, `focal-20200423`, `focal`, `latest`, `rolling`, `devel`
+* `20.10`, `groovy-20200505`, `groovy`, `devel`
+* `20.04`, `focal-20200423`, `focal`, `latest`, `rolling`
 * `19.10`, `eoan-20200410`, `eoan`
 * `18.04`, `bionic-20200403`, `bionic`
 * `16.04`, `xenial-20200326`, `xenial`

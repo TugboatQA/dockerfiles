@@ -1,4 +1,4 @@
-FROM node:14.1.0-buster
+FROM node:14.2.0-buster
 
 USER root
 
