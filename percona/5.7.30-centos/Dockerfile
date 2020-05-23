@@ -1,4 +1,4 @@
-FROM percona:5.7.29-centos
+FROM percona:5.7.30-centos
 
 USER root
 
