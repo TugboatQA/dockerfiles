@@ -1,4 +1,4 @@
-FROM node:10.20.1-jessie
+FROM node:12.18.0-stretch
 
 USER root
 
