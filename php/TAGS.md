@@ -1,11 +1,11 @@
 ## Supported Tags for tugboatqa/php
 
-* `7.4.6-fpm-buster`, `7.4-fpm-buster`, `7-fpm-buster`, `fpm-buster`, `7.4.6-fpm`, `7.4-fpm`, `7-fpm`, `fpm`
-* `7.4.6-apache-buster`, `7.4-apache-buster`, `7-apache-buster`, `apache-buster`, `7.4.6-apache`, `7.4-apache`, `7-apache`, `apache`
-* `7.3.18-fpm-stretch`, `7.3-fpm-stretch`
-* `7.3.18-fpm-buster`, `7.3-fpm-buster`, `7.3.18-fpm`, `7.3-fpm`
-* `7.3.18-apache-stretch`, `7.3-apache-stretch`
-* `7.3.18-apache-buster`, `7.3-apache-buster`, `7.3.18-apache`, `7.3-apache`
+* `7.4.7-fpm-buster`, `7.4-fpm-buster`, `7-fpm-buster`, `fpm-buster`, `7.4.7-fpm`, `7.4-fpm`, `7-fpm`, `fpm`
+* `7.4.7-apache-buster`, `7.4-apache-buster`, `7-apache-buster`, `apache-buster`, `7.4.7-apache`, `7.4-apache`, `7-apache`, `apache`
+* `7.3.19-fpm-stretch`, `7.3-fpm-stretch`
+* `7.3.19-fpm-buster`, `7.3-fpm-buster`, `7.3.19-fpm`, `7.3-fpm`
+* `7.3.19-apache-stretch`, `7.3-apache-stretch`
+* `7.3.19-apache-buster`, `7.3-apache-buster`, `7.3.19-apache`, `7.3-apache`
 * `7.2.31-fpm-stretch`, `7.2-fpm-stretch`
 * `7.2.31-fpm-buster`, `7.2-fpm-buster`, `7.2.31-fpm`, `7.2-fpm`
 * `7.2.31-apache-stretch`, `7.2-apache-stretch`

@@ -1,8 +1,8 @@
 ## Supported Tags for tugboatqa/mariadb
 
-* `10.5.3-bionic`, `10.5-bionic`, `rc-bionic`, `10.5.3`, `10.5`, `rc`
-* `10.4.13-bionic`, `10.4-bionic`, `10-bionic`, `bionic`, `10.4.13`, `10.4`, `10`, `latest`
-* `10.3.23-bionic`, `10.3-bionic`, `10.3.23`, `10.3`
+* `10.5.4-focal`, `10.5-focal`, `10-focal`, `focal`, `10.5.4`, `10.5`, `10`, `latest`
+* `10.4.13-focal`, `10.4-focal`, `10.4.13`, `10.4`
+* `10.3.23-focal`, `10.3-focal`, `10.3.23`, `10.3`
 * `10.2.32-bionic`, `10.2-bionic`, `10.2.32`, `10.2`
 * `10.1.45-bionic`, `10.1-bionic`, `10.1.45`, `10.1`
 
