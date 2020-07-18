@@ -1,4 +1,4 @@
-FROM mysql:8.0.20
+FROM mysql:5.6.49
 
 USER root
 
