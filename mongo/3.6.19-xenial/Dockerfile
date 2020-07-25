@@ -1,4 +1,4 @@
-FROM node:10.21.0-jessie
+FROM mongo:3.6.19-xenial
 
 USER root
 
@@ -42,10 +42,12 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 27017
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-
+RUN mkdir -p /etc/service/mongo
+COPY run /etc/service/mongo/run
 
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]
