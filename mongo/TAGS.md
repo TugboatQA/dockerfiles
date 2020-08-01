@@ -1,6 +1,7 @@
 ## Supported Tags for tugboatqa/mongo
 
-* `4.2.8-bionic`, `4.2-bionic`, `4-bionic`, `bionic`
+* `4.4.0-bionic`, `4.4-bionic`, `4-bionic`, `bionic`
+* `4.2.8-bionic`, `4.2-bionic`
 * `4.0.19-xenial`, `4.0-xenial`
 * `3.6.19-xenial`, `3.6-xenial`, `3-xenial`
 
