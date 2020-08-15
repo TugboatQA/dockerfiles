@@ -1,7 +1,6 @@
 ## Supported Tags for tugboatqa/centos
 
-* `latest`, `centos8`, `8`, `centos8.2.2004`, `8.2.2004`
-* `centos8.1.1911`, `8.1.1911`
+* `latest`, `centos8`, `8`
 * `centos7.8.2003`, `7.8.2003`
 * `centos7.7.1908`, `7.7.1908`
 * `centos7`, `7`
