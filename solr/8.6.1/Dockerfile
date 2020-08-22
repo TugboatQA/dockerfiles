@@ -1,4 +1,4 @@
-FROM mongo:4.0.19-xenial
+FROM solr:8.6.1
 
 USER root
 
@@ -42,12 +42,11 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 27017
-
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 8983
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/mongo
-COPY run /etc/service/mongo/run
+RUN mkdir -p /etc/service/solr
+COPY run /etc/service/solr/run
 
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]
