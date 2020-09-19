@@ -1,4 +1,4 @@
-FROM node:10.22.0-buster
+FROM node:12.18.4-stretch
 
 USER root
 

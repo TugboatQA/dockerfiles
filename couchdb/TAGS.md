@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/couchdb
 
-* `latest`, `3.1.0`, `3.1`, `3`
+* `latest`, `3.1.1`, `3.1`, `3`
 * `3.0.1`, `3.0`
 * `2.3.1`, `2.3`, `2`
 
