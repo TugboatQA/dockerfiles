@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/percona
 
-* `psmdb-4.4.0`, `psmdb-4.4`
+* `psmdb-4.4.1`, `psmdb-4.4`
 * `psmdb-4.2.9`, `psmdb-4.2`
 * `psmdb-4.0.20`, `psmdb-4.0`
 * `psmdb-3.6.19`, `psmdb-3.6`
