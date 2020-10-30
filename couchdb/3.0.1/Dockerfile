@@ -49,4 +49,6 @@ RUN apt-get clean && \
 RUN mkdir -p /etc/service/couchdb
 COPY run /etc/service/couchdb/run
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]

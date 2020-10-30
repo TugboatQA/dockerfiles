@@ -39,4 +39,6 @@ RUN yum clean all -y && \
 RUN mkdir -p /etc/service/elasticsearch
 COPY run /etc/service/elasticsearch/run
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/local/bin/runsvdir", "-P", "/etc/service"]

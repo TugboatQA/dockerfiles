@@ -49,4 +49,6 @@ RUN apt-get clean && \
 RUN mkdir -p /etc/service/solr
 COPY run /etc/service/solr/run
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]

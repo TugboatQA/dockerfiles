@@ -50,4 +50,6 @@ RUN apt-get clean && \
 RUN mkdir -p /etc/service/mongo
 COPY run /etc/service/mongo/run
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]

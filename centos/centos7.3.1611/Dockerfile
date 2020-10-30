@@ -36,4 +36,6 @@ RUN yum clean all -y && \
 
 
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/local/bin/runsvdir", "-P", "/etc/service"]

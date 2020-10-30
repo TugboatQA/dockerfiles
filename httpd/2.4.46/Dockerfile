@@ -58,4 +58,6 @@ RUN apt-get clean && \
 RUN mkdir -p /etc/service/httpd
 COPY run /etc/service/httpd/run
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]

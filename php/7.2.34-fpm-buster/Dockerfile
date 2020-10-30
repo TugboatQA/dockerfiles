@@ -75,4 +75,6 @@ RUN apt-get clean && \
 RUN mkdir -p /etc/service/php
 COPY run /etc/service/php/run
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]

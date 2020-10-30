@@ -59,4 +59,6 @@ RUN apt-get clean && \
 RUN mkdir -p /etc/service/mysql
 COPY run /etc/service/mysql/run
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]

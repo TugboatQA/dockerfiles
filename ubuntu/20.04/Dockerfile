@@ -48,4 +48,6 @@ RUN apt-get clean && \
 
 
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]

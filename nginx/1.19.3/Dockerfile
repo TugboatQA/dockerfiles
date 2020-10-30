@@ -55,4 +55,6 @@ RUN apt-get clean && \
 RUN mkdir -p /etc/service/nginx
 COPY run /etc/service/nginx/run
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]

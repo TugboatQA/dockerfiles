@@ -59,4 +59,6 @@ RUN apt-get clean && \
 RUN mkdir -p /etc/service/mariadb
 COPY run /etc/service/mariadb/run
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]

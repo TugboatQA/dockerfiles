@@ -47,4 +47,6 @@ RUN yum clean all -y && \
 RUN mkdir -p /etc/service/percona
 COPY run /etc/service/percona/run
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/local/bin/runsvdir", "-P", "/etc/service"]

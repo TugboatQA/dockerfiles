@@ -55,4 +55,6 @@ RUN apt-get clean && \
 RUN mkdir -p /etc/service/postgres
 COPY run /etc/service/postgres/run
 
+STOPSIGNAL SIGTERM
+
 CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]
