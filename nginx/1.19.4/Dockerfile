@@ -1,4 +1,4 @@
-FROM mariadb:10.1.47-bionic
+FROM nginx:1.19.4
 
 USER root
 
@@ -42,22 +42,18 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-COPY files/mysql/tugboat.cnf /etc/mysql/conf.d/tugboat.cnf
+ENV DOCROOT=/usr/share/nginx/html
 
-ENV MYSQL_ALLOW_EMPTY_PASSWORD=true \
-    MYSQL_USER=tugboat \
-    MYSQL_PASSWORD=tugboat \
-    MYSQL_DATABASE=tugboat \
-    MYSQL_HOST=localhost \
-    MYSQL_ROOT_HOST=localhost
+RUN mv ${DOCROOT} ${DOCROOT}.original && \
+    ln -s ${DOCROOT}.original ${DOCROOT}
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 3306
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 80
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/mariadb
-COPY run /etc/service/mariadb/run
+RUN mkdir -p /etc/service/nginx
+COPY run /etc/service/nginx/run
 
 STOPSIGNAL SIGTERM
 

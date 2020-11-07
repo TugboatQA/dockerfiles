@@ -1,4 +1,4 @@
-FROM percona:psmdb-4.2.9
+FROM percona:psmdb-4.2.10
 
 USER root
 
