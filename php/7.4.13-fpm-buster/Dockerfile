@@ -1,4 +1,4 @@
-FROM php:7.4.12-fpm-buster
+FROM php:7.4.13-fpm-buster
 
 USER root
 

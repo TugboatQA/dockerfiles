@@ -1,4 +1,4 @@
-FROM php:7.3.24-apache-stretch
+FROM php:7.3.25-apache-buster
 
 USER root
 
