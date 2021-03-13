@@ -1,4 +1,4 @@
-FROM nginx:1.19.7-perl
+FROM nginx:1.19.8-perl
 
 USER root
 
