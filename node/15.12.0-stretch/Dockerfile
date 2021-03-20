@@ -1,4 +1,4 @@
-FROM node:15.11.0-stretch
+FROM node:15.12.0-stretch
 
 USER root
 
