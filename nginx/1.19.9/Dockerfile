@@ -1,4 +1,4 @@
-FROM postgres:12.6
+FROM nginx:1.19.9
 
 USER root
 
@@ -42,18 +42,18 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-COPY files/docker-entrypoint-initdb.d /docker-entrypoint-initdb.d
+ENV DOCROOT=/usr/share/nginx/html
 
-ENV POSTGRES_DB=tugboat
-ENV POSTGRES_PASSWORD=tugboat
+RUN mv ${DOCROOT} ${DOCROOT}.original && \
+    ln -s ${DOCROOT}.original ${DOCROOT}
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 5432
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 80
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/postgres
-COPY run /etc/service/postgres/run
+RUN mkdir -p /etc/service/nginx
+COPY run /etc/service/nginx/run
 
 STOPSIGNAL SIGTERM
 

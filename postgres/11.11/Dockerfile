@@ -42,7 +42,7 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-COPY files/docker-entirypoint-initdb.d /docker-entrypoint-initdb.d
+COPY files/docker-entrypoint-initdb.d /docker-entrypoint-initdb.d
 
 ENV POSTGRES_DB=tugboat
 ENV POSTGRES_PASSWORD=tugboat
