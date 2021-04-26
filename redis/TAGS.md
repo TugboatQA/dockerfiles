@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/redis
 
-* `6.2.1`, `6.2`, `6`, `latest`, `6.2.1-buster`, `6.2-buster`, `6-buster`, `buster`
+* `6.2.2`, `6.2`, `6`, `latest`, `6.2.2-buster`, `6.2-buster`, `6-buster`, `buster`
 * `6.0.12`, `6.0`, `6.0.12-buster`, `6.0-buster`
 * `5.0.12`, `5.0`, `5`, `5.0.12-buster`, `5.0-buster`, `5-buster`
 
