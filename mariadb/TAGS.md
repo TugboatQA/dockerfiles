@@ -4,6 +4,5 @@
 * `10.4.18-focal`, `10.4-focal`, `10.4.18`, `10.4`
 * `10.3.28-focal`, `10.3-focal`, `10.3.28`, `10.3`
 * `10.2.37-bionic`, `10.2-bionic`, `10.2.37`, `10.2`
-* `10.1.48-bionic`, `10.1-bionic`, `10.1.48`, `10.1`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/mariadb/tags/ to see a list of all available tags for this image, including those that are no longer supported.
