@@ -1,4 +1,4 @@
-FROM mongo:4.2.13-bionic
+FROM mongo:4.2.14-bionic
 
 USER root
 

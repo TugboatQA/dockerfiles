@@ -1,4 +1,4 @@
-FROM php:7.4.18-fpm-buster
+FROM php:7.4.19-apache-buster
 
 USER root
 
@@ -44,7 +44,8 @@ COPY share/Makefile /usr/share/tugboat/
 
 ENV COMPOSER_NO_INTERACTION=1 \
     COMPOSER_DISCARD_CHANGES=1 \
-    COMPOSER_ALLOW_SUPERUSER=1
+    COMPOSER_ALLOW_SUPERUSER=1 \
+    DOCROOT=/var/www/html
 
 RUN apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libpng-dev && \
     (apt-get install -y mysql-client || apt-get install -y mariadb-client) && \
@@ -63,17 +64,24 @@ RUN apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libpng
     php -r "copy('https://raw.githubusercontent.com/composer/getcomposer.org/master/web/installer', 'composer-setup.php');" && \
     php composer-setup.php && \
     php -r "unlink('composer-setup.php');" && \
-    mv composer.phar /usr/local/bin/composer
+    \
+    mv composer.phar /usr/local/bin/composer && \
+    mkdir -p /etc/service/apache && \
+    echo "umask 0002" >> /etc/apache2/envvars && \
+    \
+    mv ${DOCROOT} ${DOCROOT}.original && \
+    ln -s ${DOCROOT}.original ${DOCROOT}
 
+COPY files/apache.runit /etc/service/apache/run
+COPY files/000-default.conf /etc/apache2/sites-available/000-default.conf
 COPY files/tugboat.ini /usr/local/etc/php/conf.d/tugboat.ini
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9000
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 80
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/php
-COPY run /etc/service/php/run
+
 
 STOPSIGNAL SIGTERM
 
