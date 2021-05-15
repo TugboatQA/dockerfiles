@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/mysql
 
-* `8.0.24`, `8.0`, `8`, `latest`
+* `8.0.25`, `8.0`, `8`, `latest`
 * `5.7.34`, `5.7`, `5`
 * `5.6.51`, `5.6`
 
