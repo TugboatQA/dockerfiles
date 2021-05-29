@@ -1,7 +1,8 @@
 ## Supported Tags for tugboatqa/ubuntu
 
-* `21.04`, `hirsute-20210514`, `hirsute`, `rolling`
-* `20.10`, `groovy-20210514`, `groovy`
+* `21.10`, `impish-20210519`, `impish`, `devel`
+* `21.04`, `hirsute-20210522`, `hirsute`, `rolling`
+* `20.10`, `groovy-20210524`, `groovy`
 * `20.04`, `focal-20210416`, `focal`, `latest`
 * `18.04`, `bionic-20210512`, `bionic`
 * `16.04`, `xenial-20210429`, `xenial`
