@@ -1,9 +1,7 @@
 ## Supported Tags for tugboatqa/node
 
-* `16-stretch`, `16.2-stretch`, `16.2.0-stretch`, `current-stretch`, `stretch`
-* `16`, `16-buster`, `16.2`, `16.2-buster`, `16.2.0`, `16.2.0-buster`, `buster`, `current`, `current-buster`, `latest`
-* `15-buster`, `15.14-buster`, `15.14.0-buster`
-* `15`, `15-stretch`, `15.14`, `15.14-stretch`, `15.14.0`, `15.14.0-stretch`
+* `16-stretch`, `16.3-stretch`, `16.3.0-stretch`, `current-stretch`, `stretch`
+* `16`, `16-buster`, `16.3`, `16.3-buster`, `16.3.0`, `16.3.0-buster`, `buster`, `current`, `current-buster`, `latest`
 * `14-buster`, `14.17-buster`, `14.17.0-buster`, `fermium-buster`, `lts-buster`
 * `14`, `14-stretch`, `14.17`, `14.17-stretch`, `14.17.0`, `14.17.0-stretch`, `fermium`, `fermium-stretch`, `lts`, `lts-fermium`, `lts-stretch`
 * `12-buster`, `12.22-buster`, `12.22.1-buster`, `erbium-buster`
