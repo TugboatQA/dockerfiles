@@ -1,4 +1,4 @@
-FROM mongo:4.0.24-xenial
+FROM mongo:4.0.25-xenial
 
 USER root
 
