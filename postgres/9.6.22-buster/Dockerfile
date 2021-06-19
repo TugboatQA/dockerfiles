@@ -1,4 +1,4 @@
-FROM postgres:9.5.25
+FROM postgres:9.6.22-buster
 
 USER root
 

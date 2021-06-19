@@ -1,5 +1,6 @@
 ## Supported Tags for tugboatqa/mariadb
 
+* `10.6.2-focal`, `10.6-focal`, `rc-focal`, `10.6.2`, `10.6`, `rc`
 * `10.5.10-focal`, `10.5-focal`, `10-focal`, `focal`, `10.5.10`, `10.5`, `10`, `latest`
 * `10.4.19-focal`, `10.4-focal`, `10.4.19`, `10.4`
 * `10.3.29-focal`, `10.3-focal`, `10.3.29`, `10.3`
