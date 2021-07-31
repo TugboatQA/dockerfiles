@@ -1,4 +1,4 @@
-FROM php:7.4.21-apache-buster
+FROM php:8.0.9-apache-buster
 
 USER root
 
