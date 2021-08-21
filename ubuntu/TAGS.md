@@ -2,7 +2,6 @@
 
 * `21.10`, `impish-20210722`, `impish`, `devel`
 * `21.04`, `hirsute-20210723`, `hirsute`, `rolling`
-* `20.10`, `groovy-20210723`, `groovy`
 * `20.04`, `focal-20210723`, `focal`, `latest`
 * `18.04`, `bionic-20210723`, `bionic`
 * `16.04`, `xenial-20210722`, `xenial`
