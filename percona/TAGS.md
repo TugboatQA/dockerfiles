@@ -3,7 +3,7 @@
 * `psmdb-5.0.2`, `psmdb-5.0`
 * `psmdb-4.4.8`, `psmdb-4.4`
 * `psmdb-4.2.15`, `psmdb-4.2`
-* `psmdb-4.0.26`, `psmdb-4.0`
+* `psmdb-4.0.27`, `psmdb-4.0`
 * `psmdb-3.6.23`, `psmdb-3.6`
 * `8.0.25-15-centos`, `8.0-centos`, `8-centos`, `8.0.25-15`, `8.0`, `8`, `ps-8.0.25-15`, `ps-8.0`, `ps-8`
 * `5.7.35-centos`, `5.7-centos`, `5-centos`, `centos`, `5.7.35`, `5.7`, `5`, `ps-5.7.35`, `ps-5.7`, `ps-5`, `latest`

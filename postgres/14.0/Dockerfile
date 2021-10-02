@@ -1,4 +1,4 @@
-FROM mongo:4.2.16-bionic
+FROM postgres:14.0
 
 USER root
 
@@ -42,13 +42,18 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 27017
+COPY files/docker-entrypoint-initdb.d /docker-entrypoint-initdb.d
+
+ENV POSTGRES_DB=tugboat
+ENV POSTGRES_PASSWORD=tugboat
+
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 5432
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/mongo
-COPY run /etc/service/mongo/run
+RUN mkdir -p /etc/service/postgres
+COPY run /etc/service/postgres/run
 
 STOPSIGNAL SIGTERM
 

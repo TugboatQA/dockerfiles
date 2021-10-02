@@ -2,8 +2,8 @@
 
 * `9.6.23-bullseye`, `9.6-bullseye`, `9-bullseye`
 * `9.6.23`, `9.6`, `9`, `9.6.23-stretch`, `9.6-stretch`, `9-stretch`
-* `14rc1`, `14rc1-bullseye`
-* `13.4`, `13`, `latest`, `13.4-bullseye`, `13-bullseye`, `bullseye`
+* `14.0`, `14`, `latest`, `14.0-bullseye`, `14-bullseye`, `bullseye`
+* `13.4`, `13`, `13.4-bullseye`, `13-bullseye`
 * `12.8`, `12`, `12.8-bullseye`, `12-bullseye`
 * `11.13-bullseye`, `11-bullseye`
 * `11.13`, `11`, `11.13-stretch`, `11-stretch`
