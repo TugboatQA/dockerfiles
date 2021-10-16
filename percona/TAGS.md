@@ -1,8 +1,8 @@
 ## Supported Tags for tugboatqa/percona
 
-* `psmdb-5.0.2`, `psmdb-5.0`
+* `psmdb-5.0.3`, `psmdb-5.0`
 * `psmdb-4.4.9`, `psmdb-4.4`
-* `psmdb-4.2.15`, `psmdb-4.2`
+* `psmdb-4.2.17`, `psmdb-4.2`
 * `psmdb-4.0.27`, `psmdb-4.0`
 * `psmdb-3.6.23`, `psmdb-3.6`
 * `8.0.25-15-centos`, `8.0-centos`, `8-centos`, `8.0.25-15`, `8.0`, `8`, `ps-8.0.25-15`, `ps-8.0`, `ps-8`
