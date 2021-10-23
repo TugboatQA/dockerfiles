@@ -1,8 +1,11 @@
 ## Supported Tags for tugboatqa/node
 
-* `16-stretch`, `16.11-stretch`, `16.11.1-stretch`, `current-stretch`, `stretch`
-* `16-bullseye`, `16.11-bullseye`, `16.11.1-bullseye`, `bullseye`, `current-bullseye`
-* `16`, `16-buster`, `16.11`, `16.11-buster`, `16.11.1`, `16.11.1-buster`, `buster`, `current`, `current-buster`, `latest`
+* `17-stretch`, `17.0-stretch`, `17.0.1-stretch`
+* `17-buster`, `17.0-buster`, `17.0.1-buster`
+* `17`, `17-bullseye`, `17.0`, `17.0-bullseye`, `17.0.1`, `17.0.1-bullseye`
+* `16-stretch`, `16.12-stretch`, `16.12.0-stretch`, `current-stretch`, `stretch`
+* `16-bullseye`, `16.12-bullseye`, `16.12.0-bullseye`, `bullseye`, `current-bullseye`
+* `16`, `16-buster`, `16.12`, `16.12-buster`, `16.12.0`, `16.12.0-buster`, `buster`, `current`, `current-buster`, `latest`
 * `14-buster`, `14.18-buster`, `14.18.1-buster`, `fermium-buster`, `lts-buster`
 * `14-bullseye`, `14.18-bullseye`, `14.18.1-bullseye`, `fermium-bullseye`, `lts-bullseye`
 * `14`, `14-stretch`, `14.18`, `14.18-stretch`, `14.18.1`, `14.18.1-stretch`, `fermium`, `fermium-stretch`, `lts`, `lts-fermium`, `lts-stretch`
