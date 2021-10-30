@@ -1,4 +1,4 @@
-FROM php:8.1.0RC4-apache-bullseye
+FROM php:7.3.32-apache-bullseye
 
 USER root
 
