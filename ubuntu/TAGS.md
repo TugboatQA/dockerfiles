@@ -1,6 +1,7 @@
 ## Supported Tags for tugboatqa/ubuntu
 
-* `21.10`, `impish-20211015`, `impish`, `rolling`
+* `22.04`, `jammy-20211029`, `jammy`, `devel`
+* `21.10`, `impish-20211102`, `impish`, `rolling`
 * `21.04`, `hirsute-20210917`, `hirsute`
 * `20.04`, `focal-20211006`, `focal`, `latest`
 * `18.04`, `bionic-20210930`, `bionic`
