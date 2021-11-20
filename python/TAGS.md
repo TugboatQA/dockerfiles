@@ -1,7 +1,7 @@
 ## Supported Tags for tugboatqa/python
 
-* `3.9.8-buster`, `3.9-buster`
-* `3.9.8-bullseye`, `3.9-bullseye`, `3.9.8`, `3.9`
+* `3.9.9-buster`, `3.9-buster`
+* `3.9.9-bullseye`, `3.9-bullseye`, `3.9.9`, `3.9`
 * `3.8.12-buster`, `3.8-buster`
 * `3.8.12-bullseye`, `3.8-bullseye`, `3.8.12`, `3.8`
 * `3.7.12-buster`, `3.7-buster`
