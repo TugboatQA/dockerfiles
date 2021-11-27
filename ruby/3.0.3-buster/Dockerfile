@@ -1,4 +1,4 @@
-FROM ruby:2.6.8-bullseye
+FROM ruby:3.0.3-buster
 
 USER root
 
