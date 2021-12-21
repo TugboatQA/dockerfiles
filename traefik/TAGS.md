@@ -1,5 +1,6 @@
 ## Supported Tags for tugboatqa/traefik
 
+* `v2.6.0-rc1`, `2.6.0-rc1`, `v2.6`, `2.6`, `rocamadour`
 * `v2.5.5`, `2.5.5`, `v2.5`, `2.5`, `brie`, `latest`
 * `v1.7.34-alpine`, `1.7.34-alpine`, `v1.7-alpine`, `1.7-alpine`, `maroilles-alpine`
 
