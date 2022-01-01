@@ -1,7 +1,7 @@
 ## Supported Tags for tugboatqa/nginx
 
-* `1.21.4-perl`, `mainline-perl`, `1-perl`, `1.21-perl`, `perl`
-* `1.21.4`, `mainline`, `1`, `1.21`, `latest`
+* `1.21.5-perl`, `mainline-perl`, `1-perl`, `1.21-perl`, `perl`
+* `1.21.5`, `mainline`, `1`, `1.21`, `latest`
 * `1.20.2`, `stable`, `1.20`
 * `1.20.2-perl`, `stable-perl`, `1.20-perl`
 

@@ -1,4 +1,4 @@
-FROM mongo:4.4.10-focal
+FROM nginx:1.21.5-perl
 
 USER root
 
@@ -42,13 +42,18 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 27017
+ENV DOCROOT=/usr/share/nginx/html
+
+RUN mv ${DOCROOT} ${DOCROOT}.original && \
+    ln -s ${DOCROOT}.original ${DOCROOT}
+
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 80
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/mongo
-COPY run /etc/service/mongo/run
+RUN mkdir -p /etc/service/nginx
+COPY run /etc/service/nginx/run
 
 STOPSIGNAL SIGTERM
 
