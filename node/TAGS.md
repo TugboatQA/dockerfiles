@@ -1,8 +1,8 @@
 ## Supported Tags for tugboatqa/node
 
-* `17-stretch`, `17.3-stretch`, `17.3.1-stretch`, `current-stretch`, `stretch`
-* `17-buster`, `17.3-buster`, `17.3.1-buster`, `buster`, `current-buster`
-* `17`, `17-bullseye`, `17.3`, `17.3-bullseye`, `17.3.1`, `17.3.1-bullseye`, `bullseye`, `current`, `current-bullseye`, `latest`
+* `17-stretch`, `17.4-stretch`, `17.4.0-stretch`, `current-stretch`, `stretch`
+* `17-buster`, `17.4-buster`, `17.4.0-buster`, `buster`, `current-buster`
+* `17`, `17-bullseye`, `17.4`, `17.4-bullseye`, `17.4.0`, `17.4.0-bullseye`, `bullseye`, `current`, `current-bullseye`, `latest`
 * `16-stretch`, `16.13-stretch`, `16.13.2-stretch`, `gallium-stretch`, `lts-stretch`
 * `16-bullseye`, `16.13-bullseye`, `16.13.2-bullseye`, `gallium-bullseye`, `lts-bullseye`
 * `16`, `16-buster`, `16.13`, `16.13-buster`, `16.13.2`, `16.13.2-buster`, `gallium`, `gallium-buster`, `lts`, `lts-buster`, `lts-gallium`
