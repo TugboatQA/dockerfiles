@@ -1,4 +1,4 @@
-FROM mongo:4.4.11-focal
+FROM mongo:4.4.12-focal
 
 USER root
 
