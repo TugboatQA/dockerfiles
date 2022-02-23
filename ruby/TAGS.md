@@ -1,7 +1,7 @@
 ## Supported Tags for tugboatqa/ruby
 
-* `3.1.0-buster`, `3.1-buster`, `3-buster`, `buster`
-* `3.1.0-bullseye`, `3.1-bullseye`, `3-bullseye`, `bullseye`, `3.1.0`, `3.1`, `3`, `latest`
+* `3.1.1-buster`, `3.1-buster`, `3-buster`, `buster`
+* `3.1.1-bullseye`, `3.1-bullseye`, `3-bullseye`, `bullseye`, `3.1.1`, `3.1`, `3`, `latest`
 * `3.0.3-buster`, `3.0-buster`
 * `3.0.3-bullseye`, `3.0-bullseye`, `3.0.3`, `3.0`
 * `2.7.5-buster`, `2.7-buster`, `2-buster`
