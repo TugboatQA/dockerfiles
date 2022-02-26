@@ -1,4 +1,4 @@
-FROM mariadb:10.4.22-focal
+FROM mariadb:10.4.24-focal
 
 USER root
 
