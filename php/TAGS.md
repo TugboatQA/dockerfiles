@@ -12,9 +12,5 @@
 * `7.4.28-fpm-bullseye`, `7.4-fpm-bullseye`, `7-fpm-bullseye`, `7.4.28-fpm`, `7.4-fpm`, `7-fpm`
 * `7.4.28-apache-buster`, `7.4-apache-buster`, `7-apache-buster`
 * `7.4.28-apache-bullseye`, `7.4-apache-bullseye`, `7-apache-bullseye`, `7.4.28-apache`, `7.4-apache`, `7-apache`
-* `7.3.33-fpm-buster`, `7.3-fpm-buster`
-* `7.3.33-fpm-bullseye`, `7.3-fpm-bullseye`, `7.3.33-fpm`, `7.3-fpm`
-* `7.3.33-apache-buster`, `7.3-apache-buster`
-* `7.3.33-apache-bullseye`, `7.3-apache-bullseye`, `7.3.33-apache`, `7.3-apache`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/php/tags/ to see a list of all available tags for this image, including those that are no longer supported.
