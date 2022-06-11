@@ -1,10 +1,10 @@
 ## Supported Tags for tugboatqa/ubuntu
 
-* `22.10`, `kinetic-20220428`, `kinetic`, `devel`
-* `22.04`, `jammy-20220428`, `jammy`, `latest`, `rolling`
-* `21.10`, `impish-20220427`, `impish`
-* `20.04`, `focal-20220426`, `focal`
-* `18.04`, `bionic-20220427`, `bionic`
+* `22.10`, `kinetic-20220602`, `kinetic`, `devel`
+* `22.04`, `jammy-20220531`, `jammy`, `latest`, `rolling`
+* `21.10`, `impish-20220531`, `impish`
+* `20.04`, `focal-20220531`, `focal`
+* `18.04`, `bionic-20220531`, `bionic`
 * `16.04`, `xenial-20210804`, `xenial`
 * `14.04`, `trusty-20191217`, `trusty`
 
