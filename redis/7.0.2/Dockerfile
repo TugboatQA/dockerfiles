@@ -1,4 +1,4 @@
-FROM redis:7.0.1
+FROM redis:7.0.2
 
 USER root
 
