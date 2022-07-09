@@ -1,7 +1,7 @@
 ## Supported Tags for tugboatqa/mongo
 
 * `5.0.9-focal`, `5.0-focal`, `5-focal`, `focal`, `5.0.9`, `5.0`, `5`, `latest`
-* `4.4.14-focal`, `4.4-focal`, `4-focal`, `4.4.14`, `4.4`, `4`
+* `4.4.15-focal`, `4.4-focal`, `4-focal`, `4.4.15`, `4.4`, `4`
 * `4.2.21-bionic`, `4.2-bionic`, `4.2.21`, `4.2`
 * `4.0.28-xenial`, `4.0-xenial`, `4.0.28`, `4.0`
 
