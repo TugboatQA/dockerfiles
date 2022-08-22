@@ -1,9 +1,9 @@
 ## Supported Tags for tugboatqa/node
 
-* `18-buster`, `18.6-buster`, `18.6.0-buster`, `buster`, `current-buster`
-* `18`, `18-bullseye`, `18.6`, `18.6-bullseye`, `18.6.0`, `18.6.0-bullseye`, `bullseye`, `current`, `current-bullseye`, `latest`
-* `16-bullseye`, `16.16-bullseye`, `16.16.0-bullseye`, `gallium-bullseye`, `lts-bullseye`
-* `16`, `16-buster`, `16.16`, `16.16-buster`, `16.16.0`, `16.16.0-buster`, `gallium`, `gallium-buster`, `lts`, `lts-buster`, `lts-gallium`
+* `18-buster`, `18.7-buster`, `18.7.0-buster`, `buster`, `current-buster`
+* `18`, `18-bullseye`, `18.7`, `18.7-bullseye`, `18.7.0`, `18.7.0-bullseye`, `bullseye`, `current`, `current-bullseye`, `latest`
+* `16-bullseye`, `16.17-bullseye`, `16.17.0-bullseye`, `gallium-bullseye`, `lts-bullseye`
+* `16`, `16-buster`, `16.17`, `16.17-buster`, `16.17.0`, `16.17.0-buster`, `gallium`, `gallium-buster`, `lts`, `lts-buster`, `lts-gallium`
 * `14-bullseye`, `14.20-bullseye`, `14.20.0-bullseye`, `fermium-bullseye`
 * `14`, `14-buster`, `14.20`, `14.20-buster`, `14.20.0`, `14.20.0-buster`, `fermium`, `fermium-buster`
 
