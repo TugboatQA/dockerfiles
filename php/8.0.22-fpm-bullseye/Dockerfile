@@ -1,4 +1,4 @@
-FROM php:8.0.22-fpm-bullseye
+FROM php:8-fpm-bullseye
 
 USER root
 
