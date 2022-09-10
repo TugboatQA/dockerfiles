@@ -1,4 +1,4 @@
-FROM mongo:5.0.11-focal
+FROM python:3.10.7-buster
 
 USER root
 
@@ -42,13 +42,11 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 27017
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/mongo
-COPY run /etc/service/mongo/run
+
 
 STOPSIGNAL SIGTERM
 
