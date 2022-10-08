@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/rabbitmq
 
-* `3.9.22`, `3.9`
+* `3.9.23`, `3.9`
 * `3.11.0`, `3.11`, `3`, `latest`
 * `3.10.8`, `3.10`
 

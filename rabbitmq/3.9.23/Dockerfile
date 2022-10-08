@@ -1,4 +1,4 @@
-FROM mongo:4.2.22-bionic
+FROM rabbitmq:3.9.23
 
 USER root
 
@@ -42,13 +42,12 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 27017
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/mongo
-COPY run /etc/service/mongo/run
+RUN mkdir -p /etc/service/rabbitmq
+COPY run /etc/service/rabbitmq/run
 
 STOPSIGNAL SIGTERM
 
