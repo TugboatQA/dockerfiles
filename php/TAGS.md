@@ -1,9 +1,13 @@
 ## Supported Tags for tugboatqa/php
 
-* `8.2.0RC3-fpm-buster`, `8.2-rc-fpm-buster`
-* `8.2.0RC3-fpm-bullseye`, `8.2-rc-fpm-bullseye`, `8.2.0RC3-fpm`, `8.2-rc-fpm`
-* `8.2.0RC3-apache-buster`, `8.2-rc-apache-buster`
-* `8.2.0RC3-apache-bullseye`, `8.2-rc-apache-bullseye`, `8.2.0RC3-apache`, `8.2-rc-apache`
+* `8.2.0RC4-fpm-buster`, `8.2-rc-fpm-buster`
+* `8.2.0RC4-fpm-bullseye`, `8.2-rc-fpm-bullseye`, `8.2.0RC4-fpm`, `8.2-rc-fpm`
+* `8.2.0RC4-apache-buster`, `8.2-rc-apache-buster`
+* `8.2.0RC4-apache-bullseye`, `8.2-rc-apache-bullseye`, `8.2.0RC4-apache`, `8.2-rc-apache`
+* `8.1.12RC1-fpm-buster`, `8.1-rc-fpm-buster`
+* `8.1.12RC1-fpm-bullseye`, `8.1-rc-fpm-bullseye`, `8.1.12RC1-fpm`, `8.1-rc-fpm`
+* `8.1.12RC1-apache-buster`, `8.1-rc-apache-buster`
+* `8.1.12RC1-apache-bullseye`, `8.1-rc-apache-bullseye`, `8.1.12RC1-apache`, `8.1-rc-apache`
 * `8.1.11-fpm-buster`, `8.1-fpm-buster`, `8-fpm-buster`, `fpm-buster`
 * `8.1.11-fpm-bullseye`, `8.1-fpm-bullseye`, `8-fpm-bullseye`, `fpm-bullseye`, `8.1.11-fpm`, `8.1-fpm`, `8-fpm`, `fpm`
 * `8.1.11-apache-buster`, `8.1-apache-buster`, `8-apache-buster`, `apache-buster`
