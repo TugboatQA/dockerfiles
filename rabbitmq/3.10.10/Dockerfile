@@ -1,4 +1,4 @@
-FROM nginx:1.22.0
+FROM rabbitmq:3.10.10
 
 USER root
 
@@ -42,18 +42,12 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-ENV DOCROOT=/usr/share/nginx/html
-
-RUN mv ${DOCROOT} ${DOCROOT}.original && \
-    ln -s ${DOCROOT}.original ${DOCROOT}
-
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 80
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/nginx
-COPY run /etc/service/nginx/run
+RUN mkdir -p /etc/service/rabbitmq
+COPY run /etc/service/rabbitmq/run
 
 STOPSIGNAL SIGTERM
 
