@@ -6,7 +6,7 @@
 * `18`, `18-bullseye`, `18.12`, `18.12-bullseye`, `18.12.0`, `18.12.0-bullseye`, `hydrogen`, `hydrogen-bullseye`, `lts`, `lts-bullseye`, `lts-hydrogen`
 * `16-bullseye`, `16.18-bullseye`, `16.18.0-bullseye`, `gallium-bullseye`
 * `16`, `16-buster`, `16.18`, `16.18-buster`, `16.18.0`, `16.18.0-buster`, `gallium`, `gallium-buster`
-* `14-bullseye`, `14.20-bullseye`, `14.20.1-bullseye`, `fermium-bullseye`
-* `14`, `14-buster`, `14.20`, `14.20-buster`, `14.20.1`, `14.20.1-buster`, `fermium`, `fermium-buster`
+* `14-bullseye`, `14.21-bullseye`, `14.21.0-bullseye`, `fermium-bullseye`
+* `14`, `14-buster`, `14.21`, `14.21-buster`, `14.21.0`, `14.21.0-buster`, `fermium`, `fermium-buster`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/node/tags/ to see a list of all available tags for this image, including those that are no longer supported.

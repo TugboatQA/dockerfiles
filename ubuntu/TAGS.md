@@ -1,7 +1,7 @@
 ## Supported Tags for tugboatqa/ubuntu
 
-* `22.10`, `kinetic-20221024`, `kinetic`, `rolling`
-* `22.04`, `jammy-20221020`, `jammy`, `latest`
+* `22.10`, `kinetic-20221101`, `kinetic`, `rolling`
+* `22.04`, `jammy-20221101`, `jammy`, `latest`
 * `20.04`, `focal-20221019`, `focal`
 * `18.04`, `bionic-20221019`, `bionic`
 * `16.04`, `xenial-20210804`, `xenial`
