@@ -8,6 +8,10 @@
 * `8.1.12-fpm-bullseye`, `8.1-fpm-bullseye`, `8-fpm-bullseye`, `fpm-bullseye`, `8.1.12-fpm`, `8.1-fpm`, `8-fpm`, `fpm`
 * `8.1.12-apache-buster`, `8.1-apache-buster`, `8-apache-buster`, `apache-buster`
 * `8.1.12-apache-bullseye`, `8.1-apache-bullseye`, `8-apache-bullseye`, `apache-bullseye`, `8.1.12-apache`, `8.1-apache`, `8-apache`, `apache`
+* `8.0.26RC1-fpm-buster`, `8.0-rc-fpm-buster`
+* `8.0.26RC1-fpm-bullseye`, `8.0-rc-fpm-bullseye`, `8.0.26RC1-fpm`, `8.0-rc-fpm`
+* `8.0.26RC1-apache-buster`, `8.0-rc-apache-buster`
+* `8.0.26RC1-apache-bullseye`, `8.0-rc-apache-bullseye`, `8.0.26RC1-apache`, `8.0-rc-apache`
 * `8.0.25-fpm-buster`, `8.0-fpm-buster`
 * `8.0.25-fpm-bullseye`, `8.0-fpm-bullseye`, `8.0.25-fpm`, `8.0-fpm`
 * `8.0.25-apache-buster`, `8.0-apache-buster`
