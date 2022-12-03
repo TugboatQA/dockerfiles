@@ -1,7 +1,7 @@
 ## Supported Tags for tugboatqa/node
 
-* `19-buster`, `19.1-buster`, `19.1.0-buster`, `buster`, `current-buster`
-* `19`, `19-bullseye`, `19.1`, `19.1-bullseye`, `19.1.0`, `19.1.0-bullseye`, `bullseye`, `current`, `current-bullseye`, `latest`
+* `19-buster`, `19.2-buster`, `19.2.0-buster`, `buster`, `current-buster`
+* `19`, `19-bullseye`, `19.2`, `19.2-bullseye`, `19.2.0`, `19.2.0-bullseye`, `bullseye`, `current`, `current-bullseye`, `latest`
 * `18-buster`, `18.12-buster`, `18.12.1-buster`, `hydrogen-buster`, `lts-buster`
 * `18`, `18-bullseye`, `18.12`, `18.12-bullseye`, `18.12.1`, `18.12.1-bullseye`, `hydrogen`, `hydrogen-bullseye`, `lts`, `lts-bullseye`, `lts-hydrogen`
 * `16-bullseye`, `16.18-bullseye`, `16.18.1-bullseye`, `gallium-bullseye`
