@@ -1,4 +1,4 @@
-FROM ruby:3.2.0-rc1-buster
+FROM ruby:3.2.0-buster
 
 USER root
 
