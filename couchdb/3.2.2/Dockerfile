@@ -1,4 +1,4 @@
-FROM mariadb:10.4.27-focal
+FROM couchdb:3.2.2
 
 USER root
 
@@ -42,22 +42,12 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-COPY --chmod=644 files/mysql/tugboat.cnf /etc/mysql/conf.d/tugboat.cnf
-
-ENV MYSQL_ALLOW_EMPTY_PASSWORD=true \
-    MYSQL_USER=tugboat \
-    MYSQL_PASSWORD=tugboat \
-    MYSQL_DATABASE=tugboat \
-    MYSQL_HOST=localhost \
-    MYSQL_ROOT_HOST=localhost
-
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 3306
-
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 5984
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/mariadb
-COPY run /etc/service/mariadb/run
+RUN mkdir -p /etc/service/couchdb
+COPY run /etc/service/couchdb/run
 
 STOPSIGNAL SIGTERM
 

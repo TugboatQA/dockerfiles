@@ -42,7 +42,7 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-COPY files/mysql/tugboat.cnf /etc/mysql/conf.d/tugboat.cnf
+COPY --chmod=644 files/mysql/tugboat.cnf /etc/mysql/conf.d/tugboat.cnf
 
 ENV MYSQL_ALLOW_EMPTY_PASSWORD=true \
     MYSQL_USER=tugboat \
