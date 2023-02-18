@@ -7,7 +7,7 @@
 * `10.5.19-focal`, `10.5-focal`, `10.5.19`, `10.5`
 * `10.4.28-focal`, `10.4-focal`, `10.4.28`, `10.4`
 * `10.3.38-focal`, `10.3-focal`, `10.3.38`, `10.3`
-* `10.11.1-rc-jammy`, `10.11-rc-jammy`, `10.11.1-rc`, `10.11-rc`
-* `10.10.3-jammy`, `10.10-jammy`, `10-jammy`, `jammy`, `10.10.3`, `10.10`, `10`, `latest`
+* `10.11.2-jammy`, `10.11-jammy`, `10-jammy`, `jammy`, `10.11.2`, `10.11`, `10`, `latest`
+* `10.10.3-jammy`, `10.10-jammy`, `10.10.3`, `10.10`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/mariadb/tags/ to see a list of all available tags for this image, including those that are no longer supported.
