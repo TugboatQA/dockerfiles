@@ -1,4 +1,4 @@
-FROM traefik:v2.10.0-rc1
+FROM traefik:v2.10.0-rc2
 
 USER root
 
