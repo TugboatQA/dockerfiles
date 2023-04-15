@@ -1,21 +1,13 @@
 ## Supported Tags for tugboatqa/php
 
-* `8.2.5RC1-fpm-buster`, `8.2-rc-fpm-buster`
-* `8.2.5RC1-fpm-bullseye`, `8.2-rc-fpm-bullseye`, `8.2.5RC1-fpm`, `8.2-rc-fpm`
-* `8.2.5RC1-apache-buster`, `8.2-rc-apache-buster`
-* `8.2.5RC1-apache-bullseye`, `8.2-rc-apache-bullseye`, `8.2.5RC1-apache`, `8.2-rc-apache`
-* `8.2.4-fpm-buster`, `8.2-fpm-buster`, `8-fpm-buster`, `fpm-buster`
-* `8.2.4-fpm-bullseye`, `8.2-fpm-bullseye`, `8-fpm-bullseye`, `fpm-bullseye`, `8.2.4-fpm`, `8.2-fpm`, `8-fpm`, `fpm`
-* `8.2.4-apache-buster`, `8.2-apache-buster`, `8-apache-buster`, `apache-buster`
-* `8.2.4-apache-bullseye`, `8.2-apache-bullseye`, `8-apache-bullseye`, `apache-bullseye`, `8.2.4-apache`, `8.2-apache`, `8-apache`, `apache`
-* `8.1.18RC1-fpm-buster`, `8.1-rc-fpm-buster`
-* `8.1.18RC1-fpm-bullseye`, `8.1-rc-fpm-bullseye`, `8.1.18RC1-fpm`, `8.1-rc-fpm`
-* `8.1.18RC1-apache-buster`, `8.1-rc-apache-buster`
-* `8.1.18RC1-apache-bullseye`, `8.1-rc-apache-bullseye`, `8.1.18RC1-apache`, `8.1-rc-apache`
-* `8.1.17-fpm-buster`, `8.1-fpm-buster`
-* `8.1.17-fpm-bullseye`, `8.1-fpm-bullseye`, `8.1.17-fpm`, `8.1-fpm`
-* `8.1.17-apache-buster`, `8.1-apache-buster`
-* `8.1.17-apache-bullseye`, `8.1-apache-bullseye`, `8.1.17-apache`, `8.1-apache`
+* `8.2.5-fpm-buster`, `8.2-fpm-buster`, `8-fpm-buster`, `fpm-buster`
+* `8.2.5-fpm-bullseye`, `8.2-fpm-bullseye`, `8-fpm-bullseye`, `fpm-bullseye`, `8.2.5-fpm`, `8.2-fpm`, `8-fpm`, `fpm`
+* `8.2.5-apache-buster`, `8.2-apache-buster`, `8-apache-buster`, `apache-buster`
+* `8.2.5-apache-bullseye`, `8.2-apache-bullseye`, `8-apache-bullseye`, `apache-bullseye`, `8.2.5-apache`, `8.2-apache`, `8-apache`, `apache`
+* `8.1.18-fpm-buster`, `8.1-fpm-buster`
+* `8.1.18-fpm-bullseye`, `8.1-fpm-bullseye`, `8.1.18-fpm`, `8.1-fpm`
+* `8.1.18-apache-buster`, `8.1-apache-buster`
+* `8.1.18-apache-bullseye`, `8.1-apache-bullseye`, `8.1.18-apache`, `8.1-apache`
 * `8.0.28-fpm-buster`, `8.0-fpm-buster`
 * `8.0.28-fpm-bullseye`, `8.0-fpm-bullseye`, `8.0.28-fpm`, `8.0-fpm`
 * `8.0.28-apache-buster`, `8.0-apache-buster`
