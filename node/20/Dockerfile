@@ -1,4 +1,4 @@
-FROM cypress/included:12.7.0
+FROM node:20
 
 USER root
 

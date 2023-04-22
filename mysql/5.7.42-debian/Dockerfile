@@ -1,4 +1,4 @@
-FROM redis:6.0.18
+FROM mysql:5.7.42-debian
 
 USER root
 
@@ -42,13 +42,22 @@ ENV LANG=en_US.UTF-8 \
 COPY share/README.txt /usr/share/tugboat/
 COPY share/Makefile /usr/share/tugboat/
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 6379
+COPY --chmod=644 files/mysql/tugboat.cnf /etc/mysql/conf.d/tugboat.cnf
+
+ENV MYSQL_ALLOW_EMPTY_PASSWORD=true \
+    MYSQL_USER=tugboat \
+    MYSQL_PASSWORD=tugboat \
+    MYSQL_DATABASE=tugboat \
+    MYSQL_HOST=localhost \
+    MYSQL_ROOT_HOST=localhost
+
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 3306
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/redis
-COPY run /etc/service/redis/run
+RUN mkdir -p /etc/service/mysql
+COPY run /etc/service/mysql/run
 
 STOPSIGNAL SIGTERM
 
