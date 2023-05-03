@@ -1,8 +1,8 @@
 ## Supported Tags for tugboatqa/ubuntu
 
-* `23.04`, `lunar-20230415`, `lunar`, `rolling`
+* `23.04`, `lunar-20230420`, `lunar`, `rolling`
 * `22.10`, `kinetic-20230412`, `kinetic`
-* `22.04`, `jammy-20230308`, `jammy`, `latest`
+* `22.04`, `jammy-20230425`, `jammy`, `latest`
 * `20.04`, `focal-20230412`, `focal`
 * `18.04`, `bionic-20230308`, `bionic`
 

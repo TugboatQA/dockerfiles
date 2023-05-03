@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/cypress-included
 
-* `latest`, `cypress-12.10.0-node-18.16.0-chrome-112.0.5615.121-1-ff-112.0.1-edge-112.0.1722.48-1`, `12.10.0`
+* `latest`, `cypress-12.11.0-node-18.16.0-chrome-112.0.5615.121-1-ff-112.0.1-edge-112.0.1722.48-1`, `12.11.0`
 * `12.8.1`
 * `12.8.0`
 
