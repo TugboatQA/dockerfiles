@@ -1,4 +1,4 @@
-FROM opensearchproject/opensearch:2.6.0
+FROM opensearchproject/opensearch:1
 
 USER root
 
