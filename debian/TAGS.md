@@ -1,8 +1,8 @@
 ## Supported Tags for tugboatqa/debian
 
-* `stable`, `stable-20230502`
-* `buster`, `buster-20230502`, `10.13`, `10`
-* `bullseye`, `bullseye-20230502`, `11.7`, `11`, `latest`
-* `bookworm`, `bookworm-20230502`
+* `stable`, `stable-20230522`
+* `buster`, `buster-20230522`, `10.13`, `10`
+* `bullseye`, `bullseye-20230522`, `11.7`, `11`, `latest`
+* `bookworm`, `bookworm-20230522`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/debian/tags/ to see a list of all available tags for this image, including those that are no longer supported.
