@@ -1,4 +1,4 @@
-FROM node:19
+FROM rabbitmq:3.12.0
 
 USER root
 
@@ -46,7 +46,8 @@ COPY share/Makefile /usr/share/tugboat/
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-
+RUN mkdir -p /etc/service/rabbitmq
+COPY run /etc/service/rabbitmq/run
 
 STOPSIGNAL SIGTERM
 
