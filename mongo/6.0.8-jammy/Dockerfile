@@ -1,4 +1,4 @@
-FROM mongo:4.4.22-focal
+FROM mongo:6.0.8-jammy
 
 USER root
 
