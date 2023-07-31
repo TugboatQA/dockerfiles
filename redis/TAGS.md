@@ -1,8 +1,0 @@
-## Supported Tags for tugboatqa/redis
-
-* `7.2-rc3`, `7.2-rc`, `7.2-rc3-bookworm`, `7.2-rc-bookworm`
-* `7.0.12`, `7.0`, `7`, `latest`, `7.0.12-bookworm`, `7.0-bookworm`, `7-bookworm`, `bookworm`
-* `6.2.13`, `6.2`, `6`, `6.2.13-bookworm`, `6.2-bookworm`, `6-bookworm`
-* `6.0.20`, `6.0`, `6.0.20-bookworm`, `6.0-bookworm`
-
-The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/redis/tags/ to see a list of all available tags for this image, including those that are no longer supported.

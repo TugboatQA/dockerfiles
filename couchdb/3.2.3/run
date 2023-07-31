@@ -1,2 +1,0 @@
-#!/bin/sh
-exec tini -- /docker-entrypoint.sh /opt/couchdb/bin/couchdb
