@@ -12,9 +12,9 @@
 * `8.1.22-fpm-bookworm`, `8.1-fpm-bookworm`, `8.1.22-fpm`, `8.1-fpm`
 * `8.1.22-apache-bullseye`, `8.1-apache-bullseye`
 * `8.1.22-apache-bookworm`, `8.1-apache-bookworm`, `8.1.22-apache`, `8.1-apache`
-* `8.0.29-fpm-buster`, `8.0-fpm-buster`
-* `8.0.29-fpm-bullseye`, `8.0-fpm-bullseye`, `8.0.29-fpm`, `8.0-fpm`
-* `8.0.29-apache-buster`, `8.0-apache-buster`
-* `8.0.29-apache-bullseye`, `8.0-apache-bullseye`, `8.0.29-apache`, `8.0-apache`
+* `8.0.30-fpm-buster`, `8.0-fpm-buster`
+* `8.0.30-fpm-bullseye`, `8.0-fpm-bullseye`, `8.0.30-fpm`, `8.0-fpm`
+* `8.0.30-apache-buster`, `8.0-apache-buster`
+* `8.0.30-apache-bullseye`, `8.0-apache-bullseye`, `8.0.30-apache`, `8.0-apache`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/php/tags/ to see a list of all available tags for this image, including those that are no longer supported.
