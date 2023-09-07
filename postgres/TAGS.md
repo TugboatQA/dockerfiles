@@ -1,5 +1,7 @@
 ## Supported Tags for tugboatqa/postgres
 
+* `16rc1-bullseye`
+* `16rc1`, `16rc1-bookworm`
 * `15.4-bullseye`, `15-bullseye`, `bullseye`
 * `15.4`, `15`, `latest`, `15.4-bookworm`, `15-bookworm`, `bookworm`
 * `14.9-bullseye`, `14-bullseye`
