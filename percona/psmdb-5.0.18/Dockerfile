@@ -37,9 +37,6 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-COPY share/README.txt /usr/share/tugboat/
-COPY share/Makefile /usr/share/tugboat/
-
 COPY files/mysql/tugboat.cnf /etc/my.cnf.d/tugboat.cnf
 
 ENV MYSQL_ALLOW_EMPTY_PASSWORD=true \

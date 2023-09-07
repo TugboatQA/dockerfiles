@@ -37,9 +37,6 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-COPY share/README.txt /usr/share/tugboat/
-COPY share/Makefile /usr/share/tugboat/
-
 RUN echo "discovery.type: single-node" >> /usr/share/opensearch/config/opensearch.yml
 
 HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9200
