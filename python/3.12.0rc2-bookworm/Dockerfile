@@ -1,4 +1,4 @@
-FROM elasticsearch:8.9.1
+FROM python:3.12.0rc2-bookworm
 
 USER root
 
@@ -38,13 +38,11 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9200
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/elasticsearch
-COPY run /etc/service/elasticsearch/run
+
 
 STOPSIGNAL SIGTERM
 
