@@ -1,4 +1,4 @@
-FROM node:16
+FROM mongo:6.0.10-jammy
 
 USER root
 
@@ -8,6 +8,7 @@ RUN echo 'APT::Get::Assume-Yes "true";' > /etc/apt/apt.conf.d/90tugboat && \
     echo 'DPkg::Options "--force-confnew";' >> /etc/apt/apt.conf.d/90tugboat && \
     (grep Linux\ 7 /etc/issue && echo "deb http://http.debian.net/debian wheezy-backports main" > /etc/apt/sources.list.d/wheezy-backports.list || /bin/true) && \
     (apt-get update || /bin/true) && \
+    apt-get install eatmydata && ln -sf /usr/bin/eatmydata /usr/local/bin/apt-get && \
     \
     apt-get install apt-transport-https && \
     apt-get update && \
@@ -38,11 +39,13 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 27017
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-
+RUN mkdir -p /etc/service/mongo
+COPY run /etc/service/mongo/run
 
 STOPSIGNAL SIGTERM
 
