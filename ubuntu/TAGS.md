@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/ubuntu
 
-* `23.10`, `mantic-20230819`, `mantic`, `devel`
+* `23.10`, `mantic-20230912`, `mantic`, `devel`
 * `23.04`, `lunar-20230816`, `lunar`, `rolling`
 * `22.04`, `jammy-20230816`, `jammy`, `latest`
 * `20.04`, `focal-20230801`, `focal`
