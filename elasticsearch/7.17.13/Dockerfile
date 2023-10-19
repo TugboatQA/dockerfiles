@@ -39,6 +39,7 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
+ENV discovery.type=single-node
 HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9200
 
 RUN apt-get clean && \
