@@ -1,7 +1,8 @@
 ## Supported Tags for tugboatqa/mariadb
 
-* `11.2.1-rc-jammy`, `11.2-rc-jammy`, `11.2.1-rc`, `11.2-rc`
-* `11.1.3-jammy`, `11.1-jammy`, `11-jammy`, `jammy`, `11.1.3`, `11.1`, `11`, `latest`
+* `11.3.1-rc-jammy`, `11.3-rc-jammy`, `11.3.1-rc`, `11.3-rc`
+* `11.2.2-jammy`, `11.2-jammy`, `11-jammy`, `jammy`, `11.2.2`, `11.2`, `11`, `latest`
+* `11.1.3-jammy`, `11.1-jammy`, `11.1.3`, `11.1`
 * `11.0.4-jammy`, `11.0-jammy`, `11.0.4`, `11.0`
 * `10.6.16-focal`, `10.6-focal`, `10.6.16`, `10.6`
 * `10.5.23-focal`, `10.5-focal`, `10.5.23`, `10.5`

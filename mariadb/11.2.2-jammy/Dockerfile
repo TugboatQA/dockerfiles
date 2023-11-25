@@ -1,4 +1,4 @@
-FROM mariadb:11.2.1-rc-jammy
+FROM mariadb:11.2.2-jammy
 
 USER root
 
