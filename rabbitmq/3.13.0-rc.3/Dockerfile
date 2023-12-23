@@ -1,4 +1,4 @@
-FROM rabbitmq:3.13.0-rc.2
+FROM rabbitmq:3.13.0-rc.3
 
 USER root
 
