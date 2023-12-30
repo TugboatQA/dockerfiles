@@ -1,9 +1,9 @@
 ## Supported Tags for tugboatqa/ruby
 
-* `3.3.0-rc1-bullseye`, `3.3-rc-bullseye`
-* `3.3.0-rc1-bookworm`, `3.3-rc-bookworm`, `3.3.0-rc1`, `3.3-rc`
-* `3.2.2-bullseye`, `3.2-bullseye`, `3-bullseye`, `bullseye`
-* `3.2.2-bookworm`, `3.2-bookworm`, `3-bookworm`, `bookworm`, `3.2.2`, `3.2`, `3`, `latest`
+* `3.3.0-bullseye`, `3.3-bullseye`, `3-bullseye`, `bullseye`
+* `3.3.0-bookworm`, `3.3-bookworm`, `3-bookworm`, `bookworm`, `3.3.0`, `3.3`, `3`, `latest`
+* `3.2.2-bullseye`, `3.2-bullseye`
+* `3.2.2-bookworm`, `3.2-bookworm`, `3.2.2`, `3.2`
 * `3.1.4-bullseye`, `3.1-bullseye`
 * `3.1.4-bookworm`, `3.1-bookworm`, `3.1.4`, `3.1`
 * `3.0.6-buster`, `3.0-buster`
