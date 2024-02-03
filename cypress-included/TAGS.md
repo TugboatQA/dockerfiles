@@ -1,5 +1,5 @@
 ## Supported Tags for tugboatqa/cypress-included
 
-* `latest`, `cypress-13.6.3-node-20.10.0-chrome-121.0.6167.85-1-ff-118.0.2-edge-118.0.2088.46-1`, `13.6.3`
+* `latest`, `cypress-13.6.4-node-20.11.0-chrome-121.0.6167.85-1-ff-120.0-edge-121.0.2277.83-1`, `13.6.4`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/cypress-included/tags/ to see a list of all available tags for this image, including those that are no longer supported.

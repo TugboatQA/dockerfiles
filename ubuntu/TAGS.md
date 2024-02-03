@@ -1,9 +1,8 @@
 ## Supported Tags for tugboatqa/ubuntu
 
-* `24.04`, `noble-20240114`, `noble`, `devel`
-* `23.10`, `mantic-20231128`, `mantic`, `rolling`
-* `23.04`, `lunar-20231128`, `lunar`
-* `22.04`, `jammy-20240111`, `jammy`, `latest`
-* `20.04`, `focal-20231211`, `focal`
+* `24.04`, `noble-20240127.1`, `noble`, `devel`
+* `23.10`, `mantic-20240122`, `mantic`, `rolling`
+* `22.04`, `jammy-20240125`, `jammy`, `latest`
+* `20.04`, `focal-20240123`, `focal`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/ubuntu/tags/ to see a list of all available tags for this image, including those that are no longer supported.
