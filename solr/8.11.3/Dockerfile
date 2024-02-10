@@ -1,4 +1,4 @@
-FROM python:3.11.7-bullseye
+FROM solr:8.11.3
 
 USER root
 
@@ -39,11 +39,12 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 8983
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-
+RUN mkdir -p /etc/service/solr
+COPY run /etc/service/solr/run
 
 STOPSIGNAL SIGTERM
 
