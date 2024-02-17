@@ -1,21 +1,13 @@
 ## Supported Tags for tugboatqa/php
 
-* `8.3.3RC1-fpm-bullseye`, `8.3-rc-fpm-bullseye`
-* `8.3.3RC1-fpm-bookworm`, `8.3-rc-fpm-bookworm`, `8.3.3RC1-fpm`, `8.3-rc-fpm`
-* `8.3.3RC1-apache-bullseye`, `8.3-rc-apache-bullseye`
-* `8.3.3RC1-apache-bookworm`, `8.3-rc-apache-bookworm`, `8.3.3RC1-apache`, `8.3-rc-apache`
-* `8.3.2-fpm-bullseye`, `8.3-fpm-bullseye`, `8-fpm-bullseye`, `fpm-bullseye`
-* `8.3.2-fpm-bookworm`, `8.3-fpm-bookworm`, `8-fpm-bookworm`, `fpm-bookworm`, `8.3.2-fpm`, `8.3-fpm`, `8-fpm`, `fpm`
-* `8.3.2-apache-bullseye`, `8.3-apache-bullseye`, `8-apache-bullseye`, `apache-bullseye`
-* `8.3.2-apache-bookworm`, `8.3-apache-bookworm`, `8-apache-bookworm`, `apache-bookworm`, `8.3.2-apache`, `8.3-apache`, `8-apache`, `apache`
-* `8.2.16RC1-fpm-bullseye`, `8.2-rc-fpm-bullseye`
-* `8.2.16RC1-fpm-bookworm`, `8.2-rc-fpm-bookworm`, `8.2.16RC1-fpm`, `8.2-rc-fpm`
-* `8.2.16RC1-apache-bullseye`, `8.2-rc-apache-bullseye`
-* `8.2.16RC1-apache-bookworm`, `8.2-rc-apache-bookworm`, `8.2.16RC1-apache`, `8.2-rc-apache`
-* `8.2.15-fpm-bullseye`, `8.2-fpm-bullseye`
-* `8.2.15-fpm-bookworm`, `8.2-fpm-bookworm`, `8.2.15-fpm`, `8.2-fpm`
-* `8.2.15-apache-bullseye`, `8.2-apache-bullseye`
-* `8.2.15-apache-bookworm`, `8.2-apache-bookworm`, `8.2.15-apache`, `8.2-apache`
+* `8.3.3-fpm-bullseye`, `8.3-fpm-bullseye`, `8-fpm-bullseye`, `fpm-bullseye`
+* `8.3.3-fpm-bookworm`, `8.3-fpm-bookworm`, `8-fpm-bookworm`, `fpm-bookworm`, `8.3.3-fpm`, `8.3-fpm`, `8-fpm`, `fpm`
+* `8.3.3-apache-bullseye`, `8.3-apache-bullseye`, `8-apache-bullseye`, `apache-bullseye`
+* `8.3.3-apache-bookworm`, `8.3-apache-bookworm`, `8-apache-bookworm`, `apache-bookworm`, `8.3.3-apache`, `8.3-apache`, `8-apache`, `apache`
+* `8.2.16-fpm-bullseye`, `8.2-fpm-bullseye`
+* `8.2.16-fpm-bookworm`, `8.2-fpm-bookworm`, `8.2.16-fpm`, `8.2-fpm`
+* `8.2.16-apache-bullseye`, `8.2-apache-bullseye`
+* `8.2.16-apache-bookworm`, `8.2-apache-bookworm`, `8.2.16-apache`, `8.2-apache`
 * `8.1.27-fpm-bullseye`, `8.1-fpm-bullseye`
 * `8.1.27-fpm-bookworm`, `8.1-fpm-bookworm`, `8.1.27-fpm`, `8.1-fpm`
 * `8.1.27-apache-bullseye`, `8.1-apache-bullseye`

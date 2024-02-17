@@ -1,10 +1,7 @@
 ## Supported Tags for tugboatqa/solr
 
-* `9.4.1`, `9.4`, `9`, `latest`
-* `9.3.0`, `9.3`
-* `9.2.1`, `9.2`
-* `9.1.1`, `9.1`
-* `9.0.0`, `9.0`
+* `9.5.0`, `9.5`, `9`, `latest`
+* `9.4.1`, `9.4`
 * `8.11.3`, `8.11`, `8`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/solr/tags/ to see a list of all available tags for this image, including those that are no longer supported.
