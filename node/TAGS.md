@@ -1,7 +1,7 @@
 ## Supported Tags for tugboatqa/node
 
-* `21-bullseye`, `21.7-bullseye`, `21.7.0-bullseye`, `bullseye`, `current-bullseye`
-* `21`, `21-bookworm`, `21.7`, `21.7-bookworm`, `21.7.0`, `21.7.0-bookworm`, `bookworm`, `current`, `current-bookworm`, `latest`
+* `21-bullseye`, `21.7-bullseye`, `21.7.1-bullseye`, `bullseye`, `current-bullseye`
+* `21`, `21-bookworm`, `21.7`, `21.7-bookworm`, `21.7.1`, `21.7.1-bookworm`, `bookworm`, `current`, `current-bookworm`, `latest`
 * `20-buster`, `20.11-buster`, `20.11.1-buster`, `iron-buster`, `lts-buster`
 * `20-bullseye`, `20.11-bullseye`, `20.11.1-bullseye`, `iron-bullseye`, `lts-bullseye`
 * `20`, `20-bookworm`, `20.11`, `20.11-bookworm`, `20.11.1`, `20.11.1-bookworm`, `iron`, `iron-bookworm`, `lts`, `lts-bookworm`, `lts-iron`
