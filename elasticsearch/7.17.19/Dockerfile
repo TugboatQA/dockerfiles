@@ -1,4 +1,4 @@
-FROM elasticsearch:7.17.18
+FROM elasticsearch:7.17.19
 
 USER root
 
