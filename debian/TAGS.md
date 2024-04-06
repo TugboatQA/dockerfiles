@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/debian
 
-* `trixie`, `trixie-20240311`
+* `trixie`, `trixie-20240330`
 * `stable`, `stable-20240311`
 * `buster`, `buster-20240311`, `10.13`, `10`
 * `bullseye`, `bullseye-20240311`, `11.9`, `11`
