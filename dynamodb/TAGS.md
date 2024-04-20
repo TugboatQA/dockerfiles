@@ -1,6 +1,8 @@
 ## Supported Tags for tugboatqa/dynamodb
 
-* `latest`, `2.3.0`
+* `latest`
+* `2.4.0`
+* `2.3.0`
 * `2.2.1`
 * `2.2.0`
 * `2.1.0`

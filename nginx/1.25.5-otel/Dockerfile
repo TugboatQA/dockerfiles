@@ -1,4 +1,4 @@
-FROM nginx:1.25.4-perl
+FROM nginx:1.25.5-otel
 
 USER root
 
