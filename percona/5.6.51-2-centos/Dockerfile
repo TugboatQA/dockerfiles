@@ -3,7 +3,7 @@ FROM percona:5.6.51-2-centos
 USER root
 
 RUN yum install -y git sudo openssh-clients ca-certificates net-tools bzip2 \
-      vim-enhanced nmap-ncat make gcc gcc-c++ rsync wget tar && \
+      vim-enhanced nmap-ncat make gcc gcc-c++ rsync wget tar jq && \
     \
     ( yum install -y glibc-static || \
       yum --enablerepo=powertools install -y glibc-static || \
