@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/mongo
 
-* `7.0.9-jammy`, `7.0-jammy`, `7-jammy`, `jammy`, `7.0.9`, `7.0`, `7`, `latest`
+* `7.0.11-jammy`, `7.0-jammy`, `7-jammy`, `jammy`, `7.0.11`, `7.0`, `7`, `latest`
 * `6.0.15-jammy`, `6.0-jammy`, `6-jammy`, `6.0.15`, `6.0`, `6`
 * `5.0.26-focal`, `5.0-focal`, `5-focal`, `5.0.26`, `5.0`, `5`
 
