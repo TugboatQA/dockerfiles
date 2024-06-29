@@ -1,6 +1,7 @@
 ## Supported Tags for tugboatqa/opensearch
 
-* `latest`, `2`, `2.14.0`
+* `latest`, `2`, `2.15.0`
+* `2.14.0`
 * `1.3.16`
 * `1`, `1.3.17`
 

@@ -1,5 +1,6 @@
 ## Supported Tags for tugboatqa/traefik
 
+* `v3.1.0-rc2`, `3.1.0-rc2`, `v3.1`, `3.1`, `comte`
 * `v3.0.3`, `3.0.3`, `v3.0`, `3.0`, `beaufort`, `latest`
 * `v2.11.5`, `2.11.5`, `v2.11`, `2.11`, `mimolette`
 

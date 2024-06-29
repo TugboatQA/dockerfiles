@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/redis
 
-* `7.4-rc1`, `7.4-rc`, `7.4-rc1-bookworm`, `7.4-rc-bookworm`
+* `7.4-rc2`, `7.4-rc`, `7.4-rc2-bookworm`, `7.4-rc-bookworm`
 * `7.2.5`, `7.2`, `7`, `latest`, `7.2.5-bookworm`, `7.2-bookworm`, `7-bookworm`, `bookworm`
 * `7.0.15`, `7.0`, `7.0.15-bookworm`, `7.0-bookworm`
 * `6.2.14`, `6.2`, `6`, `6.2.14-bookworm`, `6.2-bookworm`, `6-bookworm`
