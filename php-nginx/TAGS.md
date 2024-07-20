@@ -2,6 +2,10 @@
 
 * `8.3.9-fpm-bullseye`, `8.3-fpm-bullseye`, `8-fpm-bullseye`, `fpm-bullseye`
 * `8.3.9-fpm-bookworm`, `8.3-fpm-bookworm`, `8-fpm-bookworm`, `fpm-bookworm`, `8.3.9-fpm`, `8.3-fpm`, `8-fpm`, `fpm`
+* `8.3.10RC1-fpm-bullseye`, `8.3-rc-fpm-bullseye`
+* `8.3.10RC1-fpm-bookworm`, `8.3-rc-fpm-bookworm`, `8.3.10RC1-fpm`, `8.3-rc-fpm`
+* `8.2.22RC1-fpm-bullseye`, `8.2-rc-fpm-bullseye`
+* `8.2.22RC1-fpm-bookworm`, `8.2-rc-fpm-bookworm`, `8.2.22RC1-fpm`, `8.2-rc-fpm`
 * `8.2.21-fpm-bullseye`, `8.2-fpm-bullseye`
 * `8.2.21-fpm-bookworm`, `8.2-fpm-bookworm`, `8.2.21-fpm`, `8.2-fpm`
 * `8.1.29-fpm-bullseye`, `8.1-fpm-bullseye`
