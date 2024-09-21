@@ -1,4 +1,4 @@
-FROM varnish:7.3.1
+FROM rabbitmq:4.0.1
 
 USER root
 
@@ -41,13 +41,12 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-HEALTHCHECK CMD /usr/bin/varnishadm status
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/varnish
-COPY run /etc/service/varnish/run
+RUN mkdir -p /etc/service/rabbitmq
+COPY run /etc/service/rabbitmq/run
 
 STOPSIGNAL SIGTERM
 
