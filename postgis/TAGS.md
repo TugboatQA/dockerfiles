@@ -1,6 +1,8 @@
 ## Supported Tags for tugboatqa/postgis
 
 * `latest`, `16-3.4`
+* `17-master`
+* `17-3.4`
 * `16-master`
 * `15-master`
 * `15-3.4`
