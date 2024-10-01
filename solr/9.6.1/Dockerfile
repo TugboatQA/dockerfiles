@@ -47,6 +47,7 @@ RUN apt-get clean && \
 
 RUN mkdir -p /etc/service/solr
 COPY run /etc/service/solr/run
+COPY finish /etc/service/solr/finish
 
 STOPSIGNAL SIGTERM
 
