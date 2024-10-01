@@ -1,4 +1,4 @@
-FROM python:3.13.0rc2-bookworm
+FROM python:3.13.0rc3-bookworm
 
 USER root
 

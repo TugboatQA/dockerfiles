@@ -1,4 +1,4 @@
-FROM python:3.12.6-bookworm
+FROM python:3.12.7-bullseye
 
 USER root
 
