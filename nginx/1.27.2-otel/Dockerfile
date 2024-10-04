@@ -1,4 +1,4 @@
-FROM varnish:stable
+FROM nginx:1.27.2-otel
 
 USER root
 
@@ -41,13 +41,18 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-HEALTHCHECK CMD /usr/bin/varnishadm status || /usr/local/bin/varnishadm status
+ENV DOCROOT=/usr/share/nginx/html
+
+RUN mv ${DOCROOT} ${DOCROOT}.original && \
+    ln -s ${DOCROOT}.original ${DOCROOT}
+
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 80
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/varnish
-COPY run /etc/service/varnish/run
+RUN mkdir -p /etc/service/nginx
+COPY run /etc/service/nginx/run
 
 STOPSIGNAL SIGTERM
 

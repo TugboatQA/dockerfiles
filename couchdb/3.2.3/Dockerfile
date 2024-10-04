@@ -41,7 +41,10 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
+ENV COUCHDB_USER=tugboat \
+    COUCHDB_PASSWORD=tugboat
 HEALTHCHECK CMD /bin/nc -z 127.0.0.1 5984
+
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 

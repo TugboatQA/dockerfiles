@@ -41,7 +41,7 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-HEALTHCHECK CMD /usr/bin/varnishadm status
+HEALTHCHECK CMD /usr/bin/varnishadm status || /usr/local/bin/varnishadm status
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*

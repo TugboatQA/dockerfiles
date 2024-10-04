@@ -1,8 +1,8 @@
 ## Supported Tags for tugboatqa/nginx
 
-* `1.27.1-perl`, `mainline-perl`, `1-perl`, `1.27-perl`, `perl`, `1.27.1-bookworm-perl`, `mainline-bookworm-perl`, `1-bookworm-perl`, `1.27-bookworm-perl`, `bookworm-perl`
-* `1.27.1-otel`, `mainline-otel`, `1-otel`, `1.27-otel`, `otel`, `1.27.1-bookworm-otel`, `mainline-bookworm-otel`, `1-bookworm-otel`, `1.27-bookworm-otel`, `bookworm-otel`
-* `1.27.1`, `mainline`, `1`, `1.27`, `latest`, `1.27.1-bookworm`, `mainline-bookworm`, `1-bookworm`, `1.27-bookworm`, `bookworm`
+* `1.27.2-perl`, `mainline-perl`, `1-perl`, `1.27-perl`, `perl`, `1.27.2-bookworm-perl`, `mainline-bookworm-perl`, `1-bookworm-perl`, `1.27-bookworm-perl`, `bookworm-perl`
+* `1.27.2-otel`, `mainline-otel`, `1-otel`, `1.27-otel`, `otel`, `1.27.2-bookworm-otel`, `mainline-bookworm-otel`, `1-bookworm-otel`, `1.27-bookworm-otel`, `bookworm-otel`
+* `1.27.2`, `mainline`, `1`, `1.27`, `latest`, `1.27.2-bookworm`, `mainline-bookworm`, `1-bookworm`, `1.27-bookworm`, `bookworm`
 * `1.26.2-perl`, `stable-perl`, `1.26-perl`, `1.26.2-bookworm-perl`, `stable-bookworm-perl`, `1.26-bookworm-perl`
 * `1.26.2-otel`, `stable-otel`, `1.26-otel`, `1.26.2-bookworm-otel`, `stable-bookworm-otel`, `1.26-bookworm-otel`
 * `1.26.2`, `stable`, `1.26`, `1.26.2-bookworm`, `stable-bookworm`, `1.26-bookworm`
