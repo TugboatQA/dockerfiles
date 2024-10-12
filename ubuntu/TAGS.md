@@ -1,7 +1,7 @@
 ## Supported Tags for tugboatqa/ubuntu
 
-* `24.10`, `oracular-20240918`, `oracular`, `devel`
-* `24.04`, `noble-20240904.1`, `noble`, `latest`, `rolling`
+* `24.10`, `oracular-20241009`, `oracular`, `rolling`
+* `24.04`, `noble-20241009`, `noble`, `latest`
 * `22.04`, `jammy-20240911.1`, `jammy`
 * `20.04`, `focal-20240918`, `focal`
 
