@@ -1,4 +1,4 @@
-FROM elasticsearch:8.15.2
+FROM node:23-bullseye
 
 USER root
 
@@ -41,14 +41,11 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-ENV discovery.type=single-node
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9200
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/elasticsearch
-COPY run /etc/service/elasticsearch/run
+
 
 STOPSIGNAL SIGTERM
 

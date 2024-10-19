@@ -1,4 +1,4 @@
-FROM mysql:8.0.39-bookworm
+FROM node:23
 
 USER root
 
@@ -41,22 +41,11 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-COPY --chmod=644 files/mysql/tugboat.cnf /etc/mysql/conf.d/tugboat.cnf
-
-ENV MYSQL_ALLOW_EMPTY_PASSWORD=true \
-    MYSQL_USER=tugboat \
-    MYSQL_PASSWORD=tugboat \
-    MYSQL_DATABASE=tugboat \
-    MYSQL_HOST=localhost \
-    MYSQL_ROOT_HOST=localhost
-
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 3306
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/mysql
-COPY run /etc/service/mysql/run
+
 
 STOPSIGNAL SIGTERM
 
