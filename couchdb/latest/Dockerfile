@@ -53,4 +53,8 @@ COPY run /etc/service/couchdb/run
 
 STOPSIGNAL SIGTERM
 
-CMD ["/usr/bin/runsvdir", "-P", "/etc/service"]
+ENV RUNITDIR=/usr/bin
+
+COPY runit-init.sh /runit-init.sh
+
+CMD ["/runit-init.sh"]

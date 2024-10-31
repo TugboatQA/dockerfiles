@@ -49,4 +49,8 @@ COPY run /etc/service/opensearch/run
 
 STOPSIGNAL SIGTERM
 
-CMD ["/usr/local/bin/runsvdir", "-P", "/etc/service"]
+ENV RUNITDIR=/usr/local/bin
+
+COPY runit-init.sh /runit-init.sh
+
+CMD ["/runit-init.sh"]
