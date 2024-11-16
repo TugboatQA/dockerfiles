@@ -1,5 +1,6 @@
 ## Supported Tags for tugboatqa/elasticsearch
 
+* `8.16.0`
 * `8.15.3`
 * `7.17.25`
 
