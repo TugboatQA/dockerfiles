@@ -1,4 +1,4 @@
-FROM nginx:1.27.2-perl
+FROM nginx:1.27.3-otel
 
 USER root
 

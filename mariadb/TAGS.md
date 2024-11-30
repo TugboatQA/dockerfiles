@@ -1,5 +1,6 @@
 ## Supported Tags for tugboatqa/mariadb
 
+* `11.7.1-noble-rc`, `11.7-noble-rc`, `11.7.1-rc`, `11.7-rc`
 * `11.6.2-noble`, `11.6-noble`, `11-noble`, `noble`, `11.6.2`, `11.6`, `11`, `latest`
 * `11.4.4-noble`, `11.4-noble`, `lts-noble`, `11.4.4`, `11.4`, `lts`
 * `11.2.6-jammy`, `11.2-jammy`, `11.2.6`, `11.2`
