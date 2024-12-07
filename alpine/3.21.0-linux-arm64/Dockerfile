@@ -1,0 +1,16 @@
+FROM alpine:3.21.0
+
+USER root
+
+RUN apk add --no-cache bash git openssh-client runit jq
+
+
+
+
+STOPSIGNAL SIGTERM
+
+ENV RUNITDIR=/sbin
+
+COPY runit-init.sh /runit-init.sh
+
+CMD ["/runit-init.sh"]
