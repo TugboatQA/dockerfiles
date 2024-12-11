@@ -9,7 +9,7 @@ RUN apk add --no-cache bash git openssh-client runit jq
 
 STOPSIGNAL SIGTERM
 
-ENV RUNITDIR=/sbin
+ENV RUNITDIR=
 
 COPY runit-init.sh /runit-init.sh
 

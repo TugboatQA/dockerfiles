@@ -60,7 +60,7 @@ COPY run /etc/service/mysql/run
 
 STOPSIGNAL SIGTERM
 
-ENV RUNITDIR=/usr/bin
+ENV RUNITDIR=/usr/bin/
 
 COPY runit-init.sh /runit-init.sh
 

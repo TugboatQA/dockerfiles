@@ -49,7 +49,7 @@ COPY run /etc/service/opensearch/run
 
 STOPSIGNAL SIGTERM
 
-ENV RUNITDIR=/usr/local/bin
+ENV RUNITDIR=/usr/local/bin/
 
 COPY runit-init.sh /runit-init.sh
 
