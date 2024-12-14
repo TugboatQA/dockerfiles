@@ -1,4 +1,4 @@
-FROM ruby:3.4.0-preview2-bullseye
+FROM ruby:3.4.0-rc1-bullseye
 
 USER root
 
