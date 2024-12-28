@@ -1,4 +1,4 @@
-FROM ruby:3.4.0-rc1-bookworm
+FROM ruby:3.4.1-bookworm
 
 USER root
 
