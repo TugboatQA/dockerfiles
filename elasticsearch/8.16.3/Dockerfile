@@ -1,4 +1,4 @@
-FROM httpd:2.4.62
+FROM elasticsearch:8.16.3
 
 USER root
 
@@ -41,21 +41,14 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-ENV DOCROOT=/usr/local/apache2/htdocs
-
-RUN mv ${DOCROOT} ${DOCROOT}.original && \
-    ln -s ${DOCROOT}.original ${DOCROOT} && \
-    \
-    sed -i 's|\(^\s?ErrorLog\s\).*|\1"logs_error_log"|' /usr/local/apache2/conf/httpd.conf && \
-    sed -i 's|\(^\s?CustomLog\s\).*|\1"logs_access_log" common|' /usr/local/apache2/conf/httpd.conf
-
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 80
+ENV discovery.type=single-node
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9200
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/httpd
-COPY run /etc/service/httpd/run
+RUN mkdir -p /etc/service/elasticsearch
+COPY run /etc/service/elasticsearch/run
 
 STOPSIGNAL SIGTERM
 

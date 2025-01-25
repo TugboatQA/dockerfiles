@@ -1,4 +1,4 @@
-FROM redis:8.0-M02
+FROM redis:8.0-M03
 
 USER root
 

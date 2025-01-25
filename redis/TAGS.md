@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/redis
 
-* `8.0-M02`, `8.0-M02-bookworm`
+* `8.0-M03`, `8.0-M03-bookworm`
 * `7.4.2`, `7.4`, `7`, `latest`, `7.4.2-bookworm`, `7.4-bookworm`, `7-bookworm`, `bookworm`
 * `7.2.7`, `7.2`, `7.2.7-bookworm`, `7.2-bookworm`
 * `6.2.17`, `6.2`, `6`, `6.2.17-bookworm`, `6.2-bookworm`, `6-bookworm`
