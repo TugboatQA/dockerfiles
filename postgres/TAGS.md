@@ -10,7 +10,5 @@
 * `14.15`, `14`, `14.15-bookworm`, `14-bookworm`
 * `13.18-bullseye`, `13-bullseye`
 * `13.18`, `13`, `13.18-bookworm`, `13-bookworm`
-* `12.22-bullseye`, `12-bullseye`
-* `12.22`, `12`, `12.22-bookworm`, `12-bookworm`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/postgres/tags/ to see a list of all available tags for this image, including those that are no longer supported.
