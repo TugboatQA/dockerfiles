@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/solr
 
-* `9.8.0`, `9.8`, `9`, `latest`
+* `9.8.1`, `9.8`, `9`, `latest`
 * `9.7.0`, `9.7`
 * `8.11.4`, `8.11`, `8`
 
