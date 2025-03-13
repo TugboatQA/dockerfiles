@@ -1,4 +1,4 @@
-FROM opensearchproject/opensearch:2.18.0
+FROM amazon/dynamodb-local:2.5.4
 
 USER root
 
@@ -37,15 +37,15 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-RUN echo "discovery.type: single-node" >> /usr/share/opensearch/config/opensearch.yml
+RUN mkdir -p "/home/dynamodblocal/data"
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9200
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 8000
 
 RUN yum clean all -y && \
     rm -rf /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/opensearch
-COPY run /etc/service/opensearch/run
+RUN mkdir -p /etc/service/dynamodb
+COPY run /etc/service/dynamodb/run
 
 STOPSIGNAL SIGTERM
 
