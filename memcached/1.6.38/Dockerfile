@@ -1,4 +1,4 @@
-FROM redis:8.0-M03
+FROM memcached:1.6.38
 
 USER root
 
@@ -41,13 +41,13 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 6379
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 11211
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/redis
-COPY run /etc/service/redis/run
+RUN mkdir -p /etc/service/memcached
+COPY run /etc/service/memcached/run
 
 STOPSIGNAL SIGTERM
 

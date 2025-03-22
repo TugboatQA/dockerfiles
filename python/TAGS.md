@@ -2,8 +2,8 @@
 
 * `3.9.21-bullseye`, `3.9-bullseye`
 * `3.9.21-bookworm`, `3.9-bookworm`, `3.9.21`, `3.9`
-* `3.14.0a5-bullseye`, `3.14-rc-bullseye`
-* `3.14.0a5-bookworm`, `3.14-rc-bookworm`, `3.14.0a5`, `3.14-rc`
+* `3.14.0a6-bullseye`, `3.14-rc-bullseye`
+* `3.14.0a6-bookworm`, `3.14-rc-bookworm`, `3.14.0a6`, `3.14-rc`
 * `3.13.2-bullseye`, `3.13-bullseye`, `3-bullseye`, `bullseye`
 * `3.13.2-bookworm`, `3.13-bookworm`, `3-bookworm`, `bookworm`, `3.13.2`, `3.13`, `3`, `latest`
 * `3.12.9-bullseye`, `3.12-bullseye`

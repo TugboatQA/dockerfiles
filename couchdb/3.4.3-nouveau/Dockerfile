@@ -1,4 +1,4 @@
-FROM couchdb:3.4.2-nouveau
+FROM couchdb:3.4.3-nouveau
 
 USER root
 

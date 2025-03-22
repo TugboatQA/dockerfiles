@@ -1,4 +1,4 @@
-FROM python:3.14.0a5-bullseye
+FROM python:3.14.0a6-bullseye
 
 USER root
 
