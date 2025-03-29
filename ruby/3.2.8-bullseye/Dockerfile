@@ -1,4 +1,4 @@
-FROM postgis/postgis:15-master
+FROM ruby:3.2.8-bullseye
 
 USER root
 
@@ -41,18 +41,11 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-COPY files/docker-entrypoint-initdb.d /docker-entrypoint-initdb.d
-
-ENV POSTGRES_DB=tugboat
-ENV POSTGRES_PASSWORD=tugboat
-
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 5432
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/postgis
-COPY run /etc/service/postgis/run
+
 
 STOPSIGNAL SIGTERM
 

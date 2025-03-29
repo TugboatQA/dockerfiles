@@ -1,4 +1,4 @@
-FROM elasticsearch:8.17.3
+FROM elasticsearch:8.17.4
 
 USER root
 

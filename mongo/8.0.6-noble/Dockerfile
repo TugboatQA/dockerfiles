@@ -1,4 +1,4 @@
-FROM mongo:7.0.17-jammy
+FROM mongo:8.0.6-noble
 
 USER root
 
