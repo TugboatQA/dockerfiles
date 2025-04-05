@@ -1,9 +1,17 @@
 ## Supported Tags for tugboatqa/php
 
+* `8.4.6RC1-fpm-bullseye`, `8.4-rc-fpm-bullseye`
+* `8.4.6RC1-fpm-bookworm`, `8.4-rc-fpm-bookworm`, `8.4.6RC1-fpm`, `8.4-rc-fpm`
+* `8.4.6RC1-apache-bullseye`, `8.4-rc-apache-bullseye`
+* `8.4.6RC1-apache-bookworm`, `8.4-rc-apache-bookworm`, `8.4.6RC1-apache`, `8.4-rc-apache`
 * `8.4.5-fpm-bullseye`, `8.4-fpm-bullseye`, `8-fpm-bullseye`, `fpm-bullseye`
 * `8.4.5-fpm-bookworm`, `8.4-fpm-bookworm`, `8-fpm-bookworm`, `fpm-bookworm`, `8.4.5-fpm`, `8.4-fpm`, `8-fpm`, `fpm`
 * `8.4.5-apache-bullseye`, `8.4-apache-bullseye`, `8-apache-bullseye`, `apache-bullseye`
 * `8.4.5-apache-bookworm`, `8.4-apache-bookworm`, `8-apache-bookworm`, `apache-bookworm`, `8.4.5-apache`, `8.4-apache`, `8-apache`, `apache`
+* `8.3.20RC1-fpm-bullseye`, `8.3-rc-fpm-bullseye`
+* `8.3.20RC1-fpm-bookworm`, `8.3-rc-fpm-bookworm`, `8.3.20RC1-fpm`, `8.3-rc-fpm`
+* `8.3.20RC1-apache-bullseye`, `8.3-rc-apache-bullseye`
+* `8.3.20RC1-apache-bookworm`, `8.3-rc-apache-bookworm`, `8.3.20RC1-apache`, `8.3-rc-apache`
 * `8.3.19-fpm-bullseye`, `8.3-fpm-bullseye`
 * `8.3.19-fpm-bookworm`, `8.3-fpm-bookworm`, `8.3.19-fpm`, `8.3-fpm`
 * `8.3.19-apache-bullseye`, `8.3-apache-bullseye`
