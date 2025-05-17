@@ -1,5 +1,6 @@
 ## Supported Tags for tugboatqa/ubuntu
 
+* `25.10`, `questing-20250514`, `questing`, `devel`
 * `25.04`, `plucky-20250415`, `plucky`, `rolling`
 * `24.10`, `oracular-20250225`, `oracular`
 * `24.04`, `noble-20250415.1`, `noble`, `latest`
