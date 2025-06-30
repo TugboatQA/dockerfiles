@@ -1,8 +1,7 @@
 ## Supported Tags for tugboatqa/opensearch
 
-* `latest`, `3`, `3.0.0`
-* `3.0.0-beta1`
-* `2.19.1`
+* `latest`, `3`, `3.1.0`
+* `3.0.0`
 * `2`, `2.19.2`
 * `1`, `1.3.20`
 
