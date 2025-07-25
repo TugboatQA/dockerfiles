@@ -3,7 +3,6 @@
 * `unstable-bookworm`, `unstable`
 * `latest`, `bookworm`, `8-bookworm`, `8.1-bookworm`, `8.1.3-bookworm`, `8`, `8.1`, `8.1.3`
 * `8.1.2-bookworm`, `8.1.2`
-* `8.1.1-bookworm`, `8.1.1`
 * `8.0.3-bookworm`, `8.0.3`
 * `8.0-bookworm`, `8.0.4-bookworm`, `8.0`, `8.0.4`
 * `7.2.9-bookworm`, `7.2.9`
