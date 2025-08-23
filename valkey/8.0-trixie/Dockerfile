@@ -1,4 +1,4 @@
-FROM redis:8.2.0
+FROM valkey/valkey:8.0-trixie
 
 USER root
 
@@ -46,8 +46,8 @@ HEALTHCHECK CMD /bin/nc -z 127.0.0.1 6379
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/redis
-COPY run /etc/service/redis/run
+RUN mkdir -p /etc/service/valkey
+COPY run /etc/service/valkey/run
 
 STOPSIGNAL SIGTERM
 

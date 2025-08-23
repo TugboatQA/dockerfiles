@@ -1,4 +1,4 @@
-FROM mongo:8.0.12-noble
+FROM mongo:8.0.13-noble
 
 USER root
 
