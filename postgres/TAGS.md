@@ -1,5 +1,7 @@
 ## Supported Tags for tugboatqa/postgres
 
+* `18rc1-bookworm`
+* `18rc1`, `18rc1-trixie`
 * `17.6-bookworm`, `17-bookworm`, `bookworm`
 * `17.6`, `17`, `latest`, `17.6-trixie`, `17-trixie`, `trixie`
 * `16.10-bookworm`, `16-bookworm`

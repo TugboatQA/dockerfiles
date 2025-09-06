@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/rabbitmq
 
-* `4.1.3`, `4.1`, `4`, `latest`
+* `4.1.4`, `4.1`, `4`, `latest`
 * `4.0.9`, `4.0`
 * `3.13.7`, `3.13`, `3`
 

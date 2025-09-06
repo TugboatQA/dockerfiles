@@ -1,4 +1,4 @@
-FROM elasticsearch:8.18.5
+FROM postgres:18rc1-bookworm
 
 USER root
 
@@ -41,14 +41,18 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-ENV discovery.type=single-node
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9200
+COPY files/docker-entrypoint-initdb.d /docker-entrypoint-initdb.d
+
+ENV POSTGRES_DB=tugboat
+ENV POSTGRES_PASSWORD=tugboat
+
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 5432
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/elasticsearch
-COPY run /etc/service/elasticsearch/run
+RUN mkdir -p /etc/service/postgres
+COPY run /etc/service/postgres/run
 
 STOPSIGNAL SIGTERM
 

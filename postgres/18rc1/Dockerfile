@@ -1,4 +1,4 @@
-FROM valkey/valkey:7.2.9-bookworm
+FROM postgres:18rc1
 
 USER root
 
@@ -41,13 +41,18 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 6379
+COPY files/docker-entrypoint-initdb.d /docker-entrypoint-initdb.d
+
+ENV POSTGRES_DB=tugboat
+ENV POSTGRES_PASSWORD=tugboat
+
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 5432
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/valkey
-COPY run /etc/service/valkey/run
+RUN mkdir -p /etc/service/postgres
+COPY run /etc/service/postgres/run
 
 STOPSIGNAL SIGTERM
 
