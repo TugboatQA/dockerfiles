@@ -1,4 +1,4 @@
-FROM ruby:3.4.5-trixie
+FROM ruby:3.4.6-bookworm
 
 USER root
 

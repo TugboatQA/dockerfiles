@@ -2,8 +2,8 @@
 
 * `3.9.23-trixie`, `3.9-trixie`, `3.9.23`, `3.9`
 * `3.9.23-bookworm`, `3.9-bookworm`
-* `3.14.0rc2-trixie`, `3.14-rc-trixie`, `3.14.0rc2`, `3.14-rc`
-* `3.14.0rc2-bookworm`, `3.14-rc-bookworm`
+* `3.14.0rc3-trixie`, `3.14-rc-trixie`, `3.14.0rc3`, `3.14-rc`
+* `3.14.0rc3-bookworm`, `3.14-rc-bookworm`
 * `3.13.7-trixie`, `3.13-trixie`, `3-trixie`, `trixie`, `3.13.7`, `3.13`, `3`, `latest`
 * `3.13.7-bookworm`, `3.13-bookworm`, `3-bookworm`, `bookworm`
 * `3.12.11-trixie`, `3.12-trixie`, `3.12.11`, `3.12`

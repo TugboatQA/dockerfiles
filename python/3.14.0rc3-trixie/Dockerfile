@@ -1,4 +1,4 @@
-FROM python:3.14.0rc2-trixie
+FROM python:3.14.0rc3-trixie
 
 USER root
 
