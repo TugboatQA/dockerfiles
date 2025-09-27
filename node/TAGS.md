@@ -1,11 +1,11 @@
 ## Supported Tags for tugboatqa/node
 
-* `24-trixie`, `24.8-trixie`, `24.8.0-trixie`, `current-trixie`, `trixie`
-* `24-bullseye`, `24.8-bullseye`, `24.8.0-bullseye`, `bullseye`, `current-bullseye`
-* `24`, `24-bookworm`, `24.8`, `24.8-bookworm`, `24.8.0`, `24.8.0-bookworm`, `bookworm`, `current`, `current-bookworm`, `latest`
-* `22-trixie`, `22.19-trixie`, `22.19.0-trixie`, `jod-trixie`, `lts-trixie`
-* `22-bullseye`, `22.19-bullseye`, `22.19.0-bullseye`, `jod-bullseye`, `lts-bullseye`
-* `22`, `22-bookworm`, `22.19`, `22.19-bookworm`, `22.19.0`, `22.19.0-bookworm`, `jod`, `jod-bookworm`, `lts`, `lts-bookworm`, `lts-jod`
+* `24-trixie`, `24.9-trixie`, `24.9.0-trixie`, `current-trixie`, `trixie`
+* `24-bullseye`, `24.9-bullseye`, `24.9.0-bullseye`, `bullseye`, `current-bullseye`
+* `24`, `24-bookworm`, `24.9`, `24.9-bookworm`, `24.9.0`, `24.9.0-bookworm`, `bookworm`, `current`, `current-bookworm`, `latest`
+* `22-trixie`, `22.20-trixie`, `22.20.0-trixie`, `jod-trixie`, `lts-trixie`
+* `22-bullseye`, `22.20-bullseye`, `22.20.0-bullseye`, `jod-bullseye`, `lts-bullseye`
+* `22`, `22-bookworm`, `22.20`, `22.20-bookworm`, `22.20.0`, `22.20.0-bookworm`, `jod`, `jod-bookworm`, `lts`, `lts-bookworm`, `lts-jod`
 * `20-trixie`, `20.19-trixie`, `20.19.5-trixie`, `iron-trixie`
 * `20-bullseye`, `20.19-bullseye`, `20.19.5-bullseye`, `iron-bullseye`
 * `20`, `20-bookworm`, `20.19`, `20.19-bookworm`, `20.19.5`, `20.19.5-bookworm`, `iron`, `iron-bookworm`

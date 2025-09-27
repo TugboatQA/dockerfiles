@@ -1,9 +1,9 @@
 ## Supported Tags for tugboatqa/postgres
 
-* `18rc1-bookworm`
-* `18rc1`, `18rc1-trixie`
-* `17.6-bookworm`, `17-bookworm`, `bookworm`
-* `17.6`, `17`, `latest`, `17.6-trixie`, `17-trixie`, `trixie`
+* `18.0-bookworm`, `18-bookworm`, `bookworm`
+* `18.0`, `18`, `latest`, `18.0-trixie`, `18-trixie`, `trixie`
+* `17.6-bookworm`, `17-bookworm`
+* `17.6`, `17`, `17.6-trixie`, `17-trixie`
 * `16.10-bookworm`, `16-bookworm`
 * `16.10`, `16`, `16.10-trixie`, `16-trixie`
 * `15.14-bookworm`, `15-bookworm`
