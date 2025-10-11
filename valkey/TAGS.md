@@ -3,11 +3,11 @@
 * `unstable-bookworm`, `unstable`
 * `latest`, `trixie`, `8-trixie`, `8.1-trixie`, `8.1.4-trixie`, `8`, `8.1`, `8.1.4`
 * `bookworm`, `8-bookworm`, `8.1-bookworm`, `8.1.3-bookworm`, `8.1.3`
+* `9.0.0-rc2-trixie`, `9.0.0-rc2`
 * `9.0.0-rc1-trixie`, `9.0.0-rc1`
-* `9.0-trixie`, `9.0.0-rc2-trixie`, `9.0`, `9.0.0-rc2`
+* `9.0-trixie`, `9.0.0-rc3-trixie`, `9.0`, `9.0.0-rc3`
 * `8.0.5-trixie`, `8.0.5`
 * `8.0-trixie`, `8.0.6-trixie`, `8.0`, `8.0.6`
-* `8.0-bookworm`, `8.0.4-bookworm`, `8.0.4`
 * `7-trixie`, `7.2-trixie`, `7.2.11-trixie`, `7`, `7.2`, `7.2.11`
 * `7-bookworm`, `7.2-bookworm`, `7.2.10-bookworm`, `7.2.10`
 
