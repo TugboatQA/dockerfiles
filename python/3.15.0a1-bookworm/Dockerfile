@@ -1,4 +1,4 @@
-FROM python:3.13.8-trixie
+FROM python:3.15.0a1-bookworm
 
 USER root
 

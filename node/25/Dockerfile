@@ -1,4 +1,4 @@
-FROM python:3.13.8-bookworm
+FROM node:25
 
 USER root
 

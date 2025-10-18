@@ -1,8 +1,11 @@
 ## Supported Tags for tugboatqa/node
 
-* `24-trixie`, `24.10-trixie`, `24.10.0-trixie`, `current-trixie`, `trixie`
-* `24-bullseye`, `24.10-bullseye`, `24.10.0-bullseye`, `bullseye`, `current-bullseye`
-* `24`, `24-bookworm`, `24.10`, `24.10-bookworm`, `24.10.0`, `24.10.0-bookworm`, `bookworm`, `current`, `current-bookworm`, `latest`
+* `25-trixie`, `25.0-trixie`, `25.0.0-trixie`, `current-trixie`, `trixie`
+* `25-bullseye`, `25.0-bullseye`, `25.0.0-bullseye`, `bullseye`, `current-bullseye`
+* `25`, `25-bookworm`, `25.0`, `25.0-bookworm`, `25.0.0`, `25.0.0-bookworm`, `bookworm`, `current`, `current-bookworm`, `latest`
+* `24-trixie`, `24.10-trixie`, `24.10.0-trixie`
+* `24-bullseye`, `24.10-bullseye`, `24.10.0-bullseye`
+* `24`, `24-bookworm`, `24.10`, `24.10-bookworm`, `24.10.0`, `24.10.0-bookworm`
 * `22-trixie`, `22.20-trixie`, `22.20.0-trixie`, `jod-trixie`, `lts-trixie`
 * `22-bullseye`, `22.20-bullseye`, `22.20.0-bullseye`, `jod-bullseye`, `lts-bullseye`
 * `22`, `22-bookworm`, `22.20`, `22.20-bookworm`, `22.20.0`, `22.20.0-bookworm`, `jod`, `jod-bookworm`, `lts`, `lts-bookworm`, `lts-jod`
