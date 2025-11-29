@@ -1,4 +1,4 @@
-FROM valkey/valkey:7-trixie
+FROM valkey/valkey:unstable
 
 USER root
 
