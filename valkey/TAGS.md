@@ -1,7 +1,9 @@
 ## Supported Tags for tugboatqa/valkey
 
 * `unstable-bookworm`, `unstable`
-* `latest`, `trixie`, `9-trixie`, `9.0-trixie`, `9.0.0-trixie`, `9`, `9.0`, `9.0.0`
+* `latest`, `trixie`, `9-trixie`, `9.0-trixie`, `9.0.1-trixie`, `9`, `9.0.1`
+* `9.0.0-trixie`, `9.0.0`
+* `9.0`
 * `8.0-trixie`, `8.0.6-trixie`, `8.0`, `8.0.6`
 * `8-trixie`, `8.1-trixie`, `8.1.5-trixie`, `8`, `8.1`, `8.1.5`
 * `7-trixie`, `7.2-trixie`, `7.2.11-trixie`, `7`, `7.2`, `7.2.11`
