@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/ubuntu
 
-* `26.04`, `resolute-20251130`, `resolute`, `devel`
+* `26.04`, `resolute-20251208`, `resolute`, `devel`
 * `25.10`, `questing-20251029`, `questing`, `rolling`
 * `25.04`, `plucky-20251001`, `plucky`
 * `24.04`, `noble-20251013`, `noble`, `latest`
