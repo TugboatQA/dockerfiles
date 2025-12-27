@@ -1,4 +1,4 @@
-FROM ruby:4.0.0-preview3-bookworm
+FROM valkey/valkey:8.0.6-trixie
 
 USER root
 
@@ -41,11 +41,13 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 6379
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-
+RUN mkdir -p /etc/service/valkey
+COPY run /etc/service/valkey/run
 
 STOPSIGNAL SIGTERM
 

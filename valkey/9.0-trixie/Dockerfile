@@ -1,4 +1,4 @@
-FROM nginx:1.28.0-perl
+FROM valkey/valkey:9.0-trixie
 
 USER root
 
@@ -41,18 +41,13 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-ENV DOCROOT=/usr/share/nginx/html
-
-RUN mv ${DOCROOT} ${DOCROOT}.original && \
-    ln -s ${DOCROOT}.original ${DOCROOT}
-
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 80
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 6379
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/nginx
-COPY run /etc/service/nginx/run
+RUN mkdir -p /etc/service/valkey
+COPY run /etc/service/valkey/run
 
 STOPSIGNAL SIGTERM
 

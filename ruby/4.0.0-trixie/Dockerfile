@@ -1,4 +1,4 @@
-FROM ruby:4.0.0-preview3-trixie
+FROM ruby:4.0.0-trixie
 
 USER root
 
