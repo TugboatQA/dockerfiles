@@ -1,5 +1,9 @@
 ## Supported Tags for tugboatqa/php
 
+* `8.5.4RC1-fpm-trixie`, `8.5-rc-fpm-trixie`, `8.5.4RC1-fpm`, `8.5-rc-fpm`
+* `8.5.4RC1-fpm-bookworm`, `8.5-rc-fpm-bookworm`
+* `8.5.4RC1-apache-trixie`, `8.5-rc-apache-trixie`, `8.5.4RC1-apache`, `8.5-rc-apache`
+* `8.5.4RC1-apache-bookworm`, `8.5-rc-apache-bookworm`
 * `8.5.3-fpm-trixie`, `8.5-fpm-trixie`, `8-fpm-trixie`, `fpm-trixie`, `8.5.3-fpm`, `8.5-fpm`, `8-fpm`, `fpm`
 * `8.5.3-fpm-bookworm`, `8.5-fpm-bookworm`, `8-fpm-bookworm`, `fpm-bookworm`
 * `8.5.3-apache-trixie`, `8.5-apache-trixie`, `8-apache-trixie`, `apache-trixie`, `8.5.3-apache`, `8.5-apache`, `8-apache`, `apache`
