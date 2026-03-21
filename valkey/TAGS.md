@@ -3,6 +3,7 @@
 * `unstable-trixie`, `unstable`
 * `unstable-bookworm`
 * `latest`, `trixie`, `9-trixie`, `9.0-trixie`, `9.0.3-trixie`, `9`, `9.0`, `9.0.3`
+* `9.1-trixie`, `9.1.0-rc1-trixie`, `9.1`, `9.1.0-rc1`
 * `9.0.2-trixie`, `9.0.2`
 * `8.1.5-trixie`, `8.1.5`
 * `8.0.6-trixie`, `8.0.6`

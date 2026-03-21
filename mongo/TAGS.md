@@ -1,7 +1,7 @@
 ## Supported Tags for tugboatqa/mongo
 
-* `8.2.5-noble`, `8.2-noble`, `8-noble`, `noble`, `8.2.5`, `8.2`, `8`, `latest`
-* `8.0.19-noble`, `8.0-noble`, `8.0.19`, `8.0`
-* `7.0.30-jammy`, `7.0-jammy`, `7-jammy`, `7.0.30`, `7.0`, `7`
+* `8.2.6-noble`, `8.2-noble`, `8-noble`, `noble`, `8.2.6`, `8.2`, `8`, `latest`
+* `8.0.20-noble`, `8.0-noble`, `8.0.20`, `8.0`
+* `7.0.31-jammy`, `7.0-jammy`, `7-jammy`, `7.0.31`, `7.0`, `7`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/mongo/tags/ to see a list of all available tags for this image, including those that are no longer supported.
