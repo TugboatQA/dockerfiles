@@ -41,7 +41,11 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-ENV discovery.type=single-node
+ENV ES_SETTING_DISCOVERY_TYPE=single-node \
+    ES_SETTING_XPACK_SECURITY_ENABLED=false \
+    ES_SETTING_XPACK_SECURITY_ENROLLMENT_ENABLED=false\
+    ES_SETTING_NETWORK_HOST=0.0.0.0
+
 HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9200
 
 RUN apt-get clean && \
