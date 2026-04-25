@@ -1,7 +1,7 @@
 ## Supported Tags for tugboatqa/ruby
 
-* `4.0.2-trixie`, `4.0-trixie`, `4-trixie`, `trixie`, `4.0.2`, `4.0`, `4`, `latest`
-* `4.0.2-bookworm`, `4.0-bookworm`, `4-bookworm`, `bookworm`
+* `4.0.3-trixie`, `4.0-trixie`, `4-trixie`, `trixie`, `4.0.3`, `4.0`, `4`, `latest`
+* `4.0.3-bookworm`, `4.0-bookworm`, `4-bookworm`, `bookworm`
 * `3.4.9-trixie`, `3.4-trixie`, `3-trixie`, `3.4.9`, `3.4`, `3`
 * `3.4.9-bookworm`, `3.4-bookworm`, `3-bookworm`
 * `3.3.11-trixie`, `3.3-trixie`, `3.3.11`, `3.3`
