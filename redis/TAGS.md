@@ -1,5 +1,6 @@
 ## Supported Tags for tugboatqa/redis
 
+* `8.8-m03`, `8.8-m03-trixie`
 * `8.6.2`, `8.6`, `8`, `8.6.2-trixie`, `8.6-trixie`, `8-trixie`, `latest`, `trixie`
 * `8.4.2`, `8.4`, `8.4.2-trixie`, `8.4-trixie`
 * `8.2.5`, `8.2`, `8.2.5-bookworm`, `8.2-bookworm`

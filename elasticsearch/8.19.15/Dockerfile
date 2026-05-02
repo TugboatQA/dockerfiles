@@ -1,4 +1,4 @@
-FROM mongo:7.0.31-jammy
+FROM elasticsearch:8.19.15
 
 USER root
 
@@ -41,13 +41,18 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 27017
+ENV ES_SETTING_DISCOVERY_TYPE=single-node \
+    ES_SETTING_XPACK_SECURITY_ENABLED=false \
+    ES_SETTING_XPACK_SECURITY_ENROLLMENT_ENABLED=false\
+    ES_SETTING_NETWORK_HOST=0.0.0.0
+
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9200
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir -p /etc/service/mongo
-COPY run /etc/service/mongo/run
+RUN mkdir -p /etc/service/elasticsearch
+COPY run /etc/service/elasticsearch/run
 
 STOPSIGNAL SIGTERM
 

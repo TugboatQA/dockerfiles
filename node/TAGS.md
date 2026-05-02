@@ -9,8 +9,5 @@
 * `22-trixie`, `22.22-trixie`, `22.22.2-trixie`, `jod-trixie`
 * `22-bullseye`, `22.22-bullseye`, `22.22.2-bullseye`, `jod-bullseye`
 * `22`, `22-bookworm`, `22.22`, `22.22-bookworm`, `22.22.2`, `22.22.2-bookworm`, `jod`, `jod-bookworm`
-* `20-trixie`, `20.20-trixie`, `20.20.2-trixie`, `iron-trixie`
-* `20-bullseye`, `20.20-bullseye`, `20.20.2-bullseye`, `iron-bullseye`
-* `20`, `20-bookworm`, `20.20`, `20.20-bookworm`, `20.20.2`, `20.20.2-bookworm`, `iron`, `iron-bookworm`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/node/tags/ to see a list of all available tags for this image, including those that are no longer supported.
