@@ -1,8 +1,11 @@
 ## Supported Tags for tugboatqa/node
 
-* `25-trixie`, `25.9-trixie`, `25.9.0-trixie`, `current-trixie`, `trixie`
-* `25-bullseye`, `25.9-bullseye`, `25.9.0-bullseye`, `bullseye`, `current-bullseye`
-* `25`, `25-bookworm`, `25.9`, `25.9-bookworm`, `25.9.0`, `25.9.0-bookworm`, `bookworm`, `current`, `current-bookworm`, `latest`
+* `26-bullseye`, `26.1-bullseye`, `26.1.0-bullseye`, `bullseye`, `current-bullseye`
+* `26-bookworm`, `26.1-bookworm`, `26.1.0-bookworm`, `bookworm`, `current-bookworm`
+* `26`, `26-trixie`, `26.1`, `26.1-trixie`, `26.1.0`, `26.1.0-trixie`, `current`, `current-trixie`, `latest`, `trixie`
+* `25-trixie`, `25.9-trixie`, `25.9.0-trixie`
+* `25-bullseye`, `25.9-bullseye`, `25.9.0-bullseye`
+* `25`, `25-bookworm`, `25.9`, `25.9-bookworm`, `25.9.0`, `25.9.0-bookworm`
 * `24-trixie`, `24.15-trixie`, `24.15.0-trixie`, `krypton-trixie`, `lts-trixie`
 * `24-bullseye`, `24.15-bullseye`, `24.15.0-bullseye`, `krypton-bullseye`, `lts-bullseye`
 * `24`, `24-bookworm`, `24.15`, `24.15-bookworm`, `24.15.0`, `24.15.0-bookworm`, `krypton`, `krypton-bookworm`, `lts`, `lts-bookworm`, `lts-krypton`

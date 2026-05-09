@@ -1,14 +1,14 @@
 ## Supported Tags for tugboatqa/debian
 
 * `trixie-linux-arm64`
-* `trixie`, `trixie-20260421`, `13.4`, `13`, `latest`
+* `trixie`, `trixie-20260505`, `13.4`, `13`, `latest`
 * `stable-linux-arm64`
-* `stable`, `stable-20260421`
+* `stable`, `stable-20260505`
 * `forky-linux-arm64`
-* `forky`, `forky-20260421`
+* `forky`, `forky-20260505`
 * `bullseye-linux-arm64`
-* `bullseye`, `bullseye-20260421`, `11.11`, `11`
+* `bullseye`, `bullseye-20260505`, `11.11`, `11`
 * `bookworm-linux-arm64`
-* `bookworm`, `bookworm-20260421`, `12.13`, `12`
+* `bookworm`, `bookworm-20260505`, `12.13`, `12`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/debian/tags/ to see a list of all available tags for this image, including those that are no longer supported.

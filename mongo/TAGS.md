@@ -1,5 +1,6 @@
 ## Supported Tags for tugboatqa/mongo
 
+* `8.3.1-noble`, `8.3-noble`, `8.3.1`, `8.3`
 * `8.2.7-noble`, `8.2-noble`, `8-noble`, `noble`, `8.2.7`, `8.2`, `8`, `latest`
 * `8.0.21-noble`, `8.0-noble`, `8.0.21`, `8.0`
 * `7.0.32-jammy`, `7.0-jammy`, `7-jammy`, `7.0.32`, `7.0`, `7`
