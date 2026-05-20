@@ -1,4 +1,4 @@
-FROM valkey/valkey:9.1-trixie
+FROM valkey/valkey:9.1.0-rc2-trixie
 
 USER root
 
