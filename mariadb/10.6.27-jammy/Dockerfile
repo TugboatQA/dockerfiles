@@ -1,4 +1,4 @@
-FROM mariadb:11.4.11-noble
+FROM mariadb:10.6.27-jammy
 
 USER root
 
