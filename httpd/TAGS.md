@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/httpd
 
-* `2.4.67-linux-arm64`
-* `2.4.67`, `2.4`, `2`, `latest`, `2.4.67-trixie`, `2.4-trixie`, `2-trixie`, `trixie`
+* `2.4.68-linux-arm64`
+* `2.4.68`, `2.4`, `2`, `latest`, `2.4.68-trixie`, `2.4-trixie`, `2-trixie`, `trixie`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/httpd/tags/ to see a list of all available tags for this image, including those that are no longer supported.

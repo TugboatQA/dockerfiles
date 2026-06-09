@@ -1,4 +1,4 @@
-FROM httpd:2.4.67
+FROM httpd:2.4.68
 
 USER root
 
