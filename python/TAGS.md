@@ -2,10 +2,10 @@
 
 * `3.15.0b2-trixie`, `3.15-rc-trixie`, `3.15.0b2`, `3.15-rc`
 * `3.15.0b2-bookworm`, `3.15-rc-bookworm`
-* `3.14.5-trixie`, `3.14-trixie`, `3-trixie`, `trixie`, `3.14.5`, `3.14`, `3`, `latest`
-* `3.14.5-bookworm`, `3.14-bookworm`, `3-bookworm`, `bookworm`
-* `3.13.13-trixie`, `3.13-trixie`, `3.13.13`, `3.13`
-* `3.13.13-bookworm`, `3.13-bookworm`
+* `3.14.6-trixie`, `3.14-trixie`, `3-trixie`, `trixie`, `3.14.6`, `3.14`, `3`, `latest`
+* `3.14.6-bookworm`, `3.14-bookworm`, `3-bookworm`, `bookworm`
+* `3.13.14-trixie`, `3.13-trixie`, `3.13.14`, `3.13`
+* `3.13.14-bookworm`, `3.13-bookworm`
 * `3.12.13-trixie`, `3.12-trixie`, `3.12.13`, `3.12`
 * `3.12.13-bookworm`, `3.12-bookworm`
 * `3.11.15-trixie`, `3.11-trixie`, `3.11.15`, `3.11`
