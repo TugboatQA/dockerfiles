@@ -1,7 +1,7 @@
 ## Supported Tags for tugboatqa/alpine
 
-* `3.24.0-linux-arm64`
-* `3.24.0`, `3.24`, `3`, `latest`
+* `3.24.1-linux-arm64`
+* `3.24.1`, `3.24`, `3`, `latest`
 * `3.23.4-linux-arm64`
 * `3.23.4`, `3.23`
 * `3.22.4-linux-arm64`

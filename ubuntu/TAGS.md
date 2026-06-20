@@ -1,7 +1,8 @@
 ## Supported Tags for tugboatqa/ubuntu
 
-* `26.04`, `resolute-20260421`, `resolute`, `latest`, `rolling`
-* `25.10`, `questing-20251217`, `questing`
+* `26.10`, `stonking-20260612`, `stonking`, `devel`
+* `26.04`, `resolute-20260610`, `resolute`, `latest`, `rolling`
+* `25.10`, `questing-20260610`, `questing`
 * `24.04`, `noble-20260509.1`, `noble`
 * `22.04`, `jammy-20260509`, `jammy`
 
