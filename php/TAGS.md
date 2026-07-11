@@ -1,13 +1,9 @@
 ## Supported Tags for tugboatqa/php
 
-* `8.5.8RC1-fpm-trixie`, `8.5-rc-fpm-trixie`, `8.5.8RC1-fpm`, `8.5-rc-fpm`
-* `8.5.8RC1-fpm-bookworm`, `8.5-rc-fpm-bookworm`
-* `8.5.8RC1-apache-trixie`, `8.5-rc-apache-trixie`, `8.5.8RC1-apache`, `8.5-rc-apache`
-* `8.5.8RC1-apache-bookworm`, `8.5-rc-apache-bookworm`
-* `8.5.7-fpm-trixie`, `8.5-fpm-trixie`, `8-fpm-trixie`, `fpm-trixie`, `8.5.7-fpm`, `8.5-fpm`, `8-fpm`, `fpm`
-* `8.5.7-fpm-bookworm`, `8.5-fpm-bookworm`, `8-fpm-bookworm`, `fpm-bookworm`
-* `8.5.7-apache-trixie`, `8.5-apache-trixie`, `8-apache-trixie`, `apache-trixie`, `8.5.7-apache`, `8.5-apache`, `8-apache`, `apache`
-* `8.5.7-apache-bookworm`, `8.5-apache-bookworm`, `8-apache-bookworm`, `apache-bookworm`
+* `8.5.8-fpm-trixie`, `8.5-fpm-trixie`, `8-fpm-trixie`, `fpm-trixie`, `8.5.8-fpm`, `8.5-fpm`, `8-fpm`, `fpm`
+* `8.5.8-fpm-bookworm`, `8.5-fpm-bookworm`, `8-fpm-bookworm`, `fpm-bookworm`
+* `8.5.8-apache-trixie`, `8.5-apache-trixie`, `8-apache-trixie`, `apache-trixie`, `8.5.8-apache`, `8.5-apache`, `8-apache`, `apache`
+* `8.5.8-apache-bookworm`, `8.5-apache-bookworm`, `8-apache-bookworm`, `apache-bookworm`
 * `8.4.23-fpm-trixie`, `8.4-fpm-trixie`, `8.4.23-fpm`, `8.4-fpm`
 * `8.4.23-fpm-bookworm`, `8.4-fpm-bookworm`
 * `8.4.23-apache-trixie`, `8.4-apache-trixie`, `8.4.23-apache`, `8.4-apache`
