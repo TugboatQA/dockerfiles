@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/traefik
 
-* `v3.7.7`, `3.7.7`, `v3.7`, `3.7`, `langres`, `v3`, `3`, `latest`
+* `v3.7.8`, `3.7.8`, `v3.7`, `3.7`, `langres`, `v3`, `3`, `latest`
 * `v3.6.23`, `3.6.23`, `v3.6`, `3.6`, `ramequin`
 * `v2.11.52`, `2.11.52`, `v2.11`, `2.11`, `mimolette`, `v2`, `2`
 
