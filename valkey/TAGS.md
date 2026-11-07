@@ -2,7 +2,9 @@
 
 * `unstable-trixie`, `unstable`
 * `latest`, `trixie`, `9-trixie`, `9.1-trixie`, `9.1.3-trixie`, `9`, `9.1`, `9.1.3`
-* `9.2-trixie`, `9.2.0-rc1-trixie`, `9.2`, `9.2.0-rc1`
+* `9.2.0-rc1-trixie`, `9.2.0-rc1`
+* `9.2-trixie`, `9.2`
+* `9.2-rc-trixie`, `9.2.0-rc2-trixie`, `9.2-rc`, `9.2.0-rc2`
 * `9.1.2-trixie`, `9.1.2`
 * `9.0.6-trixie`, `9.0.6`
 * `9.0-trixie`, `9.0.7-trixie`, `9.0`, `9.0.7`

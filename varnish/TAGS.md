@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/varnish
 
-* `stable`, `6.0.18-1`, `6.0.18`, `6.0`, `6`
+* `stable`
 * `old`, `9.0.4-5`, `9.0.4`, `9.0`
 * `fresh`, `latest`, `9.1.0-2`, `9.1.0`, `9.1`, `9`
 

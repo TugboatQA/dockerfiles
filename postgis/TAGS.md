@@ -1,12 +1,17 @@
 ## Supported Tags for tugboatqa/postgis
 
-* `latest`, `18-3.6`
+* `latest`, `18-3.7`
 * `18-master`
+* `18-3.6`
 * `17-master`
+* `17-3.7`
 * `17-3.6`
 * `16-master`
+* `16-3.7`
 * `16-3.6`
+* `15-3.7`
 * `15-3.6`
+* `14-3.7`
 * `14-3.6`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/postgis/tags/ to see a list of all available tags for this image, including those that are no longer supported.
