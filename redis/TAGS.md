@@ -4,6 +4,7 @@
 * `8.6.8`, `8.6`, `8.6.8-trixie`, `8.6-trixie`
 * `8.4.8`, `8.4`, `8.4.8-trixie`, `8.4-trixie`
 * `8.2.11`, `8.2`, `8.2.11-bookworm`, `8.2-bookworm`, `8-bookworm`, `bookworm`
+* `8.12-rc2`, `8.12-rc2-trixie`
 * `8.10.3`, `8.10`, `8`, `8.10.3-trixie`, `8.10-trixie`, `8-trixie`, `latest`, `trixie`
 * `7.4.12`, `7.4`, `7`, `7.4.12-bookworm`, `7.4-bookworm`, `7-bookworm`
 * `7.2.17`, `7.2`, `7.2.17-bookworm`, `7.2-bookworm`

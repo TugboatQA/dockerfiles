@@ -1,6 +1,6 @@
 ## Supported Tags for tugboatqa/python
 
-* `3.16.0a1-trixie`, `3.16-rc-trixie`, `3.16.0a1`, `3.16-rc`
+* `3.16.0a2-trixie`, `3.16-rc-trixie`, `3.16.0a2`, `3.16-rc`
 * `3.15.2-trixie`, `3.15-trixie`, `3-trixie`, `trixie`, `3.15.2`, `3.15`, `3`, `latest`
 * `3.15.2-bookworm`, `3.15-bookworm`, `3-bookworm`, `bookworm`
 * `3.14.10-trixie`, `3.14-trixie`, `3.14.10`, `3.14`
