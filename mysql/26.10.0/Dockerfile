@@ -1,4 +1,5 @@
-FROM mysql:26.10.0
+# syntax=docker/dockerfile:1.29-labs
+FROM --reset=volume,entrypoint mysql:26.10.0
 
 USER root
 

@@ -1,4 +1,5 @@
-FROM amazon/dynamodb-local:3.3.1
+# syntax=docker/dockerfile:1.29-labs
+FROM --reset=volume,entrypoint amazon/dynamodb-local:3.3.1
 
 USER root
 

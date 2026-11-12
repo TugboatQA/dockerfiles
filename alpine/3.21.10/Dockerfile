@@ -1,4 +1,5 @@
-FROM alpine:3.21.10
+# syntax=docker/dockerfile:1.29-labs
+FROM --reset=volume,entrypoint alpine:3.21.10
 
 USER root
 

@@ -1,4 +1,5 @@
-FROM opensearchproject/opensearch:2
+# syntax=docker/dockerfile:1.29-labs
+FROM --reset=volume,entrypoint opensearchproject/opensearch:2
 
 USER root
 

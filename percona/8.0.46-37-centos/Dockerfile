@@ -1,4 +1,5 @@
-FROM percona:8.0.46-37-centos
+# syntax=docker/dockerfile:1.29-labs
+FROM --reset=volume,entrypoint percona:8.0.46-37-centos
 
 USER root
 

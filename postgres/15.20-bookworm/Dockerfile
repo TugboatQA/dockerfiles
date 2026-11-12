@@ -1,0 +1,59 @@
+# syntax=docker/dockerfile:1.29-labs
+FROM --reset=volume,entrypoint postgres:15.20-bookworm
+
+USER root
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN echo 'APT::Get::Assume-Yes "true";' > /etc/apt/apt.conf.d/90tugboat && \
+    echo 'DPkg::Options "--force-confnew";' >> /etc/apt/apt.conf.d/90tugboat && \
+    apt-get update && \
+    apt-get install eatmydata && ln -sf /usr/bin/eatmydata /usr/local/bin/apt-get && \
+    \
+    mkdir -p /usr/share/man/man1 && \
+    \
+    apt-get install -y \
+        git locales sudo openssh-client ca-certificates tar gzip build-essential \
+        net-tools netcat-openbsd unzip zip bzip2 gnupg curl wget vim runit \
+        rsync jq && \
+    \
+    mkdir -p /etc/service && \
+    \
+    (apt-get install -y ssmtp || apt-get install -y msmtp-mta) && \
+    \
+    echo "[user]" > ~/.gitconfig && \
+    echo "    email = root@tugboat.qa" >> ~/.gitconfig && \
+    echo "    name = Tugboat" >> ~/.gitconfig && \
+    \
+    ln -sf /usr/share/zoneinfo/Etc/UTC /etc/localtime && \
+    \
+    localedef -i en_US -c -f UTF-8 en_US.UTF-8 && \
+    echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
+    touch /usr/share/locale/locale.alias && \
+    locale-gen
+
+# Configure locale
+ENV LANG=en_US.UTF-8 \
+    LANGUAGE=en_US:en \
+    LC_ALL=en_US.UTF-8
+
+COPY files/docker-entrypoint-initdb.d /docker-entrypoint-initdb.d
+
+ENV POSTGRES_DB=tugboat
+ENV POSTGRES_PASSWORD=tugboat
+
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 5432
+
+RUN apt-get clean && \
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+RUN mkdir -p /etc/service/postgres
+COPY run /etc/service/postgres/run
+
+STOPSIGNAL SIGTERM
+
+ENV RUNITDIR=/usr/bin/
+
+COPY runit-init.sh /runit-init.sh
+
+CMD ["/runit-init.sh"]
