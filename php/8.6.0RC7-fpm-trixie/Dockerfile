@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.29-labs
-FROM --reset=volume,entrypoint php:8.6.0RC5-apache-bookworm
+FROM --reset=volume,entrypoint php:8.6.0RC7-fpm-trixie
 
 USER root
 
@@ -40,8 +40,7 @@ ENV LANG=en_US.UTF-8 \
 ENV COMPOSER_NO_INTERACTION=1 \
     COMPOSER_DISCARD_CHANGES=1 \
     COMPOSER_ALLOW_SUPERUSER=1 \
-    WP_CLI_ALLOW_ROOT=1 \
-    DOCROOT=/var/www/html
+    WP_CLI_ALLOW_ROOT=1
 
 RUN apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libpng-dev libwebp-dev libmagickwand-dev && \
     (apt-get install -y mysql-client || apt-get install -y mariadb-client) && \
@@ -58,24 +57,17 @@ RUN apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libpng
     php -r "copy('https://raw.githubusercontent.com/composer/getcomposer.org/master/web/installer', 'composer-setup.php');" && \
     php composer-setup.php && \
     php -r "unlink('composer-setup.php');" && \
-    \
-    mv composer.phar /usr/local/bin/composer && \
-    mkdir -p /etc/service/apache && \
-    echo "umask 0002" >> /etc/apache2/envvars && \
-    \
-    mv ${DOCROOT} ${DOCROOT}.original && \
-    ln -s ${DOCROOT}.original ${DOCROOT}
+    mv composer.phar /usr/local/bin/composer
 
-COPY files/apache.runit /etc/service/apache/run
-COPY files/000-default.conf /etc/apache2/sites-available/000-default.conf
 COPY files/tugboat.ini /usr/local/etc/php/conf.d/tugboat.ini
 
-HEALTHCHECK CMD /bin/nc -z 127.0.0.1 80
+HEALTHCHECK CMD /bin/nc -z 127.0.0.1 9000
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-
+RUN mkdir -p /etc/service/php
+COPY run /etc/service/php/run
 
 STOPSIGNAL SIGTERM
 

@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.29-labs
-FROM --reset=volume,entrypoint php:8.6.0RC5-apache-trixie
+FROM --reset=volume,entrypoint php:8.6.0RC7-apache-trixie
 
 USER root
 

@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.29-labs
-FROM --reset=volume,entrypoint percona:9.7.2-2
+FROM --reset=volume,entrypoint percona:9.7.2-3
 
 USER root
 

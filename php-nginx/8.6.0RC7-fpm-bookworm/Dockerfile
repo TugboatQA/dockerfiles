@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.29-labs
-FROM --reset=volume,entrypoint php:8.6.0RC5-fpm-bookworm
+FROM --reset=volume,entrypoint php:8.6.0RC7-fpm-bookworm
 
 USER root
 

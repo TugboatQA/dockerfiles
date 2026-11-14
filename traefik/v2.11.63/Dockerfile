@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.29-labs
-FROM --reset=volume,entrypoint traefik:v2.11.62
+FROM --reset=volume,entrypoint traefik:v2.11.63
 
 USER root
 

@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.29-labs
-FROM --reset=volume,entrypoint php:8.6.0RC5-fpm-trixie
+FROM --reset=volume,entrypoint php:8.6.0RC7-apache-bookworm
 
 USER root
 
@@ -41,9 +41,9 @@ ENV COMPOSER_NO_INTERACTION=1 \
     COMPOSER_DISCARD_CHANGES=1 \
     COMPOSER_ALLOW_SUPERUSER=1 \
     WP_CLI_ALLOW_ROOT=1 \
-    DOCROOT=/usr/share/nginx/html
+    DOCROOT=/var/www/html
 
-RUN apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libpng-dev libwebp-dev libmagickwand-dev nginx && \
+RUN apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libpng-dev libwebp-dev libmagickwand-dev && \
     (apt-get install -y mysql-client || apt-get install -y mariadb-client) && \
     docker-php-ext-configure gd --with-jpeg --with-freetype --with-webp && \
     docker-php-ext-install -j$(nproc) gd iconv pdo_mysql && \
@@ -58,17 +58,17 @@ RUN apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libpng
     php -r "copy('https://raw.githubusercontent.com/composer/getcomposer.org/master/web/installer', 'composer-setup.php');" && \
     php composer-setup.php && \
     php -r "unlink('composer-setup.php');" && \
+    \
     mv composer.phar /usr/local/bin/composer && \
+    mkdir -p /etc/service/apache && \
+    echo "umask 0002" >> /etc/apache2/envvars && \
+    \
     mv ${DOCROOT} ${DOCROOT}.original && \
-    ln -s ${DOCROOT}.original ${DOCROOT} && \
-    rm /etc/nginx/sites-enabled/default
+    ln -s ${DOCROOT}.original ${DOCROOT}
 
-# Configure php-fpm to run as a service.
-COPY files/service/php-fpm/run /etc/service/php-fpm/run
-COPY files/service/nginx/run /etc/service/nginx/run
+COPY files/apache.runit /etc/service/apache/run
+COPY files/000-default.conf /etc/apache2/sites-available/000-default.conf
 COPY files/tugboat.ini /usr/local/etc/php/conf.d/tugboat.ini
-COPY files/nginx.conf /etc/nginx/nginx.conf
-COPY files/sites-enabled/* /etc/nginx/sites-enabled/
 
 HEALTHCHECK CMD /bin/nc -z 127.0.0.1 80
 
