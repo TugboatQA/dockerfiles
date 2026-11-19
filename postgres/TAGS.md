@@ -10,7 +10,5 @@
 * `16.16`, `16`, `16.16-trixie`, `16-trixie`
 * `15.20-bookworm`, `15-bookworm`
 * `15.20`, `15`, `15.20-trixie`, `15-trixie`
-* `14.25-bookworm`, `14-bookworm`
-* `14.25`, `14`, `14.25-trixie`, `14-trixie`
 
 The above tags are currently supported. Visit https://hub.docker.com/r/tugboatqa/postgres/tags/ to see a list of all available tags for this image, including those that are no longer supported.
