@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.29-labs
-FROM --reset=volume,entrypoint postgres:19rc2
+FROM --reset=volume,entrypoint postgres:19.0
 
 USER root
 
